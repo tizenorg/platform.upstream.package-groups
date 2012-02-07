@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern xmlns:rpm="http://linux.duke.edu/metadata/rpm"
+         xmlns="http://novell.com/package/metadata/suse/pattern">
+   <name>tizen-ui</name>
+   <summary>Tizen UI</summary>
+   <description>Tizen UI</description>
+   <uservisible/>
+   <category lang="en">Tizen UI</category>
+   <rpm:requires>  
+	<rpm:entry name="e17"/>
+	<rpm:entry name="menu-screen"/>
+	<rpm:entry name="clock"/>
+	<rpm:entry name="tizen-theme"/>
+	<rpm:entry name="starter"/>
+	<rpm:entry name="menu-daemon"/>
+	<rpm:entry name="phoneui"/>
+	<rpm:entry name="power-manager"/>
+	<rpm:entry name="settings"/>
+	<rpm:entry name="quickpanel"/>
+	<rpm:entry name="phone-lock"/>
+	<rpm:entry name="system-server"/>
+	<rpm:entry name="system-popup"/>
+	<rpm:entry name="smartsearch"/>
+	<rpm:entry name="memo"/>
+	<rpm:entry name="gallery"/>
+	<rpm:entry name="calendar"/>
+	<rpm:entry name="contacts"/>
+	<rpm:entry name="ciss"/>
+	<rpm:entry name="browser"/>
+	<rpm:entry name="volume-app"/>
+	<rpm:entry name="vim-enhanced"/>
+	<rpm:entry name="music-player"/>
+	<rpm:entry name="e17-extra-modules"/>
+	<rpm:entry name="e17-misc"/>
+	<rpm:entry name="taskmanager"/>
+	<rpm:entry name="video-player"/>
+	<rpm:entry name="sys-string"/>
+	<rpm:entry name="boot-animation"/>
+	<rpm:entry name="telephony-server"/>
+	<rpm:entry name="eet-tools"/>
+	<rpm:entry name="app-core-common"/>
+	<rpm:entry name="app-core-efl"/>
+	<rpm:entry name="app-core-debuginfo"/>
+	<rpm:entry name="ecore-tools"/>
+	<rpm:entry name="call"/>
+	<rpm:entry name="media-data"/>
+	<rpm:entry name="svi-data-sdk"/>
+	<rpm:entry name="efl-theme-tizen-hd"/>
+	<rpm:entry name="efl-theme-tizen-black"/>
+	<rpm:entry name="efl-theme-tizen-black-hd"/>
+	<rpm:entry name="bluetooth-frwk"/>
+	<rpm:entry name="bluetooth-frwk-agent"/>
+	<rpm:entry name="bluetooth-frwk-test"/>
+	<rpm:entry name="ise-default"/>
+	<rpm:entry name="ise-engine-default"/>
+	<rpm:entry name="mms-plugin"/>
+	<rpm:entry name="msg-service"/>
+	<rpm:entry name="msg-service-tools"/>
+	<rpm:entry name="sms-plugin"/>
+	<rpm:entry name="slp-pkgmgr-client"/>
+	<rpm:entry name="slp-pkgmgr-installer"/>
+	<rpm:entry name="slp-pkgmgr-server"/>
+	<rpm:entry name="app-svc"/>
+	<rpm:entry name="xmlsec1"/>
+	<rpm:entry name="xmlsec1-openssl"/>
+	<rpm:entry name="wrt-deviceapis-commons"/>
+	<rpm:entry name="wrt-engine"/>
+	<rpm:entry name="wrt-engine-test"/>
+	<rpm:entry name="wrt-plugins"/>
+	<rpm:entry name="wrt-plugins-tizen"/>
+	<rpm:entry name="bluetooth-frwk-agent"/>
+	<rpm:entry name="bluetooth-frwk"/>
+	<rpm:entry name="libmedia-thumbnail"/>
+	<rpm:entry name="libjpeg-turbo"/>
+	<rpm:entry name="libasound-plugins-pulse"/>
+	<rpm:entry name="libasound-plugins-speex"/>
+	<rpm:entry name="media-thumbnail-server"/>
+	<rpm:entry name="slp-pkgmgr"/>
+	<rpm:entry name="libug-setting-theme-efl"/>
+	<rpm:entry name="pulseaudio-module-bluetooth"/>
+	<rpm:entry name="pwlock"/>
+	<rpm:entry name="libasound-plugins-pulse"/>
+	<rpm:entry name="libasound-plugins-speex"/>
+	<rpm:entry name="gst-ffmpeg"/>
+	<rpm:entry name="gst-plugins-ext"/>
+	<rpm:entry name="gst-plugins-good"/>
+	<rpm:entry name="gst-plugins-bad"/>
+	<rpm:entry name="gst-plugins-ugly"/>
+	<rpm:entry name="libmm-radio"/>
+	<rpm:entry name="gpsd"/>
+	<rpm:entry name="geoclue-examples"/>
+	<rpm:entry name="geoclue-geonames"/>
+	<rpm:entry name="geoclue-gpsd"/>
+	<rpm:entry name="geoclue-hostip"/>
+	<rpm:entry name="geoclue-localnet"/>
+	<rpm:entry name="geoclue-manual"/>
+	<rpm:entry name="geoclue-nominatim"/>
+	<rpm:entry name="geoclue-plazes"/>
+	<rpm:entry name="geoclue-skyhook"/>
+	<rpm:entry name="geoclue-yahoo"/>
+	<rpm:entry name="elementary-tools"/>
+	<rpm:entry name="alert-3g-syspopup"/>
+	<rpm:entry name="syspopup-caller"/>
+	<rpm:entry name="syspopup"/>
+	<rpm:entry name="image-viewer"/>
+	<rpm:entry name="indicator-win"/>
+	<rpm:entry name="location-geoclue-nominatim"/>
+	<rpm:entry name="location-geoclue-gpsd"/>
+	<rpm:entry name="usb-setting"/>
+	<rpm:entry name="volume-app"/>
+	<rpm:entry name="calculator"/>
+	<rpm:entry name="sonet"/>
+	<rpm:entry name="ug-setting-gallery-efl"/>
+	<rpm:entry name="ug-setting-location-efl"/>
+	<rpm:entry name="ug-setting-manage-applications-efl"/>
+	<rpm:entry name="usbutils"/>
+	<rpm:entry name="pulseaudio-utils"/>
+	<rpm:entry name="gstreamer-tools"/>
+	<rpm:entry name="org.tizen.lowbat-syspopup"/>
+	<rpm:entry name="org.tizen.lowmem-syspopup"/>
+	<rpm:entry name="org.tizen.poweroff-syspopup"/>
+	<rpm:entry name="wrt-plugins"/>
+	<rpm:entry name="wrt-engine"/>
+	<rpm:entry name="elm-misc"/>
+	<rpm:entry name="e17-data"/>
+	<rpm:entry name="ug-image-viewer-efl"/>
+	<rpm:entry name="libug-gallery-efl"/>
+	<rpm:entry name="call-setting"/>
+	<rpm:entry name="mmfw-sysconf-simulator"/>
+	<rpm:entry name="alsa-scenario-scn-data-0-base"/>
+	<rpm:entry name="ug-myfile-efl"/>
+	<rpm:entry name="call-setting"/>
+	<rpm:entry name="libug-calendar-efl"/>
+	<rpm:entry name="libug-worldclock-efl"/>
+	<rpm:entry name="libsecurity-server-client"/>
+	<rpm:entry name="org.tizen.wifi-qs"/>
+	<rpm:entry name="wifi-efl-ug"/>
+	<rpm:entry name="ug-calendar-picker-efl"/>
+	<rpm:entry name="ug-memo-efl"/>
+	<rpm:entry name="ug-myfile-efl"/>
+	<rpm:entry name="ug-myfile-efl"/>
+	<rpm:entry name="ug-picker-efl"/>
+	<rpm:entry name="ug-setting-location-efl"/>
+	<rpm:entry name="ug-setting-manage-applications-efl"/>
+	<rpm:entry name="capi-appfw-app-manager"/>
+	<rpm:entry name="capi-appfw-application"/>
+	<rpm:entry name="capi-base-common"/>
+	<rpm:entry name="capi-content-media-content"/>
+	<rpm:entry name="capi-media-image-util"/>
+	<rpm:entry name="capi-location-geocoder"/>
+	<rpm:entry name="capi-location-manager"/>
+	<rpm:entry name="capi-media-audio-io"/>
+	<rpm:entry name="capi-media-camera"/>
+	<rpm:entry name="capi-media-player"/>
+	<rpm:entry name="capi-media-radio"/>
+	<rpm:entry name="capi-media-recorder"/>
+	<rpm:entry name="capi-media-sound-manager"/>
+	<rpm:entry name="capi-media-tone-player"/>
+	<rpm:entry name="capi-messaging-email"/>
+	<rpm:entry name="capi-messaging-mms"/>
+	<rpm:entry name="capi-messaging-sms"/>
+	<rpm:entry name="capi-network-connection"/>
+	<rpm:entry name="capi-social-calendar"/>
+	<rpm:entry name="capi-social-call-log"/>
+	<rpm:entry name="capi-social-contacts"/>
+	<rpm:entry name="capi-system-device"/>
+	<rpm:entry name="capi-system-haptic"/>
+	<rpm:entry name="capi-system-info"/>
+	<rpm:entry name="capi-system-power"/>
+	<rpm:entry name="capi-system-sensor"/>
+	<rpm:entry name="capi-telephony-sim"/>
+	<rpm:entry name="capi-telephony-call"/>
+	<rpm:entry name="capi-ui-efl-util"/>
+	<rpm:entry name="capi-uix-feedback"/>
+	<rpm:entry name="capi-uix-tts"/>
+	<rpm:entry name="capi-telephony-network-info"/>
+   </rpm:requires>
+</pattern>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

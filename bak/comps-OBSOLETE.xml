@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comps>
+  <!--  <meta> -->
+  <!-- Meta information will go here eventually -->
+  <!--  </meta> -->
+
+  <group>
+    <id>meego-core</id>
+    <name>MeeGo Core</name>
+    <default>true</default>
+    <description>Packages needed for Compliance</description>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">pam</packagereq>
+      <packagereq type="default">rootfiles</packagereq>
+      <packagereq type="default">bash</packagereq>
+      <packagereq type="default">sysvinit</packagereq>
+      <packagereq type="default">coreutils</packagereq>
+      <packagereq type="default">cpio</packagereq>
+      <packagereq type="default">fuse</packagereq>
+      <packagereq type="default">fuse-libs</packagereq>
+      <packagereq type="default">time</packagereq>
+      <packagereq type="default">e2fsprogs</packagereq>
+      <packagereq type="default">meego-release</packagereq>
+      <packagereq type="default">file</packagereq>
+      <packagereq type="default">filesystem</packagereq>
+      <packagereq type="default">fastinit</packagereq>
+      <packagereq type="default">iproute</packagereq>
+      <packagereq type="default">kbd</packagereq>
+      <packagereq type="default">passwd</packagereq>
+      <packagereq type="default">prelink</packagereq>
+      <packagereq type="default">procps</packagereq>
+      <packagereq type="default">readline</packagereq>
+      <packagereq type="default">nss</packagereq>
+      <packagereq type="default">rpm</packagereq>
+      <packagereq type="default">sysklogd</packagereq>
+      <packagereq type="default">setup</packagereq>
+      <packagereq type="default">shadow-utils</packagereq>
+      <packagereq type="default">util-linux-ng</packagereq>
+      <packagereq type="default">udisks</packagereq>
+      <packagereq type="default">upower</packagereq>
+      <packagereq type="default">unzip</packagereq>
+      <packagereq type="default">nss-mdns</packagereq>
+      <packagereq type="default">connman</packagereq>
+      <packagereq type="default">mailcap</packagereq>
+      <packagereq type="default">acpid</packagereq>
+      <packagereq type="default">iputils</packagereq>
+      <packagereq type="default">pm-utils</packagereq>
+      <packagereq type="default">wireless-tools</packagereq>
+      <packagereq type="default">sreadahead</packagereq>
+      <packagereq type="default">sudo</packagereq>
+      <packagereq type="default">usbutils</packagereq>
+      <packagereq type="default">deltarpm</packagereq>
+      <packagereq type="default">linux-firmware</packagereq>
+      <packagereq type="default">gettext-libs</packagereq>
+      <packagereq type="default">xdg-user-dirs</packagereq>
+      <packagereq type="default">shared-mime-info</packagereq>
+      <packagereq type="default">crda</packagereq>
+      <packagereq type="default">aegis-certman</packagereq>
+      <packagereq type="default">aegis-crypto</packagereq>  
+      <packagereq type="default">libsmack</packagereq> 
+      <packagereq type="default">bash</packagereq>
+      <packagereq type="default">bluez</packagereq>
+      <packagereq type="default">bluez-libs</packagereq>
+      <packagereq type="default">buteo-mtp</packagereq>
+      <packagereq type="default">buteo-syncfw</packagereq>
+      <packagereq type="default">buteo-syncml</packagereq>
+      <packagereq type="default">buteo-sync-plugins</packagereq>
+      <packagereq type="default">connman</packagereq>
+      <packagereq type="default">contextkit</packagereq>
+      <packagereq type="default">coreutils</packagereq>
+      <packagereq type="default">coreutils-libs</packagereq>
+      <packagereq type="default">dbus</packagereq>
+      <packagereq type="default">dbus-libs</packagereq>
+      <packagereq type="default">dbus-x11</packagereq>
+      <packagereq type="default">dbus-glib</packagereq>
+      <packagereq type="default">libgdbus</packagereq>
+      <packagereq type="default">dsme</packagereq>
+      <packagereq type="default">libiphb</packagereq>
+      <packagereq type="default">eggdbus</packagereq>
+      <packagereq type="default">GConf-dbus</packagereq>
+      <packagereq type="default">glib2</packagereq>
+      <packagereq type="default">glibc</packagereq>
+      <packagereq type="default">glibc-common</packagereq>
+      <packagereq type="default">gst-plugins-good</packagereq>
+      <packagereq type="default">gstreamer</packagereq>
+      <packagereq type="default">gupnp</packagereq>
+      <packagereq type="default">kcalcore</packagereq>
+      <packagereq type="default">libaccounts-glib</packagereq>
+      <packagereq type="default">libaccounts-qt</packagereq>
+      <packagereq type="default">libdres</packagereq>
+      <packagereq type="default">ohm-plugin-resolver</packagereq>
+      <packagereq type="default">libdsme</packagereq>
+      <packagereq type="default">libprolog</packagereq>
+      <packagereq type="default">libqttracker</packagereq>
+      <packagereq type="default">libresource</packagereq>
+      <packagereq type="default">libresource-client</packagereq>
+      <packagereq type="default">libsignon</packagereq>
+      <packagereq type="default">libsignon-passwordplugin</packagereq>
+      <packagereq type="default">libsignon-saslplugin</packagereq>
+      <packagereq type="default">libtelepathy</packagereq>
+      <packagereq type="default">libtrace</packagereq>
+      <packagereq type="default">mesa-libGLU</packagereq>
+      <packagereq type="default">mesa-libGLUT</packagereq>
+      <packagereq type="default">mesa-libOSMesa</packagereq>
+      <packagereq type="default">obexd</packagereq>
+      <packagereq type="default">ofono</packagereq>
+      <packagereq type="default">ohm</packagereq>
+      <packagereq type="default">ohm-config</packagereq>
+      <packagereq type="default">ohm-plugin-core</packagereq>
+      <packagereq type="default">ohm-plugins-misc</packagereq>
+      <packagereq type="default">PackageKit</packagereq>
+      <packagereq type="default">PackageKit-glib</packagereq>
+      <packagereq type="default">PackageKit-qt</packagereq>
+      <packagereq type="default">PackageKit-zypp</packagereq>
+      <packagereq type="default">pulseaudio</packagereq>
+      <packagereq type="default">libqtcore4</packagereq>
+      <packagereq type="default">libqtdbus4</packagereq>
+      <packagereq type="default">libqtdeclarative4</packagereq>
+      <packagereq type="default">libqtdeclarative4-folderlistmodel</packagereq>
+      <packagereq type="default">libqtdeclarative4-gestures</packagereq>
+      <packagereq type="default">libqtdeclarative4-particles</packagereq>
+      <packagereq type="default">libqtdesigner4</packagereq>
+      <packagereq type="default">libqtgui4</packagereq>
+      <packagereq type="default">libqtnetwork4</packagereq>
+      <packagereq type="default">libqtopengl4</packagereq>
+      <packagereq type="default">libqtsql4</packagereq>
+      <packagereq type="default">libqtsql4-sqlite</packagereq>
+      <packagereq type="default">libqtsvg4</packagereq>
+      <packagereq type="default">libqttest4</packagereq>
+      <packagereq type="default">libqtxml4</packagereq>
+      <packagereq type="default">libqtxmlpatterns4</packagereq>
+      <packagereq type="default">qtcontacts-tracker</packagereq>
+      <packagereq type="default">libdeclarative-contacts</packagereq>
+      <packagereq type="default">libdeclarative-multimedia</packagereq>
+      <packagereq type="default">libdeclarative-publishsubscribe</packagereq>
+      <packagereq type="default">libdeclarative-sensors</packagereq>
+      <packagereq type="default">libdeclarative-serviceframework</packagereq>
+      <packagereq type="default">libqtcontacts1</packagereq>
+      <packagereq type="default">libqtlocation1</packagereq>
+      <packagereq type="default">libqtmessaging1</packagereq>
+      <packagereq type="default">libqtmultimediakit1</packagereq>
+      <packagereq type="default">libqtpublishsubscribe1</packagereq>
+      <packagereq type="default">libqtsensors1</packagereq>
+      <packagereq type="default">libqtserviceframework1</packagereq>
+      <packagereq type="default">libqtsysteminfo1</packagereq>
+      <packagereq type="default">libqtversit1</packagereq>
+      <packagereq type="default">qt-mobility</packagereq>
+      <packagereq type="default">servicefw</packagereq>
+      <packagereq type="default">libqtwebkit4</packagereq>
+      <packagereq type="default">libqtwebkit-qmlwebkitplugin</packagereq>
+      <packagereq type="default">qt-web-runtime</packagereq>
+      <packagereq type="default">sensorfw</packagereq>
+      <packagereq type="default">swi-prolog-lib</packagereq>
+      <packagereq type="default">swi-prolog-lib-core</packagereq>
+      <packagereq type="default">telepathy-farsight</packagereq>
+      <packagereq type="default">telepathy-gabble</packagereq>
+      <packagereq type="default">telepathy-glib</packagereq>
+      <packagereq type="default">telepathy-mission-control</packagereq>
+      <packagereq type="default">telepathy-qt4</packagereq>
+      <packagereq type="default">telepathy-qt4-farsight</packagereq>
+      <packagereq type="default">telepathy-ring</packagereq>
+      <packagereq type="default">telepathy-sofiasip</packagereq>
+      <packagereq type="default">timed</packagereq>
+      <packagereq type="default">tracker</packagereq>
+      <packagereq type="default">libgudev1</packagereq>
+      <packagereq type="default">libudev</packagereq>
+      <packagereq type="default">udev</packagereq>
+      <packagereq type="default">udisks</packagereq>
+      <packagereq type="default">upower</packagereq>
+      <packagereq type="default">wpa_supplicant</packagereq>
+      <packagereq type="default">xorg-x11-font-utils</packagereq>
+      <packagereq type="default">xorg-x11-server</packagereq>
+      <packagereq type="default">xorg-x11-server-common</packagereq>
+      <packagereq type="default">xorg-x11-utils</packagereq>
+      <packagereq type="default">xorg-x11-utils-xrandr</packagereq>
+      <packagereq type="default">xorg-x11-xauth</packagereq>
+      <packagereq type="default">xorg-x11-xkb-utils</packagereq>
+	  <packagereq type="default">geoclue</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>meego-compliance</id>
+    <name>MeeGo Compliance</name>
+    <default>true</default>
+    <description>Packages needed for Compliance</description>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">bash</packagereq>
+      <packagereq type="default">bluez</packagereq>
+      <packagereq type="default">bluez-libs</packagereq>
+      <packagereq type="default">buteo-mtp</packagereq>
+      <packagereq type="default">buteo-syncfw</packagereq>
+      <packagereq type="default">buteo-syncml</packagereq>
+      <packagereq type="default">buteo-sync-plugins</packagereq>
+      <packagereq type="default">connman</packagereq>
+      <packagereq type="default">contextkit</packagereq>
+      <packagereq type="default">coreutils</packagereq>
+      <packagereq type="default">coreutils-libs</packagereq>
+      <packagereq type="default">dbus</packagereq>
+      <packagereq type="default">dbus-libs</packagereq>
+      <packagereq type="default">dbus-x11</packagereq>
+      <packagereq type="default">dbus-glib</packagereq>
+      <packagereq type="default">libgdbus</packagereq>
+      <packagereq type="default">dsme</packagereq>
+      <packagereq type="default">libiphb</packagereq>
+      <packagereq type="default">eggdbus</packagereq>
+      <packagereq type="default">GConf-dbus</packagereq>
+      <packagereq type="default">glib2</packagereq>
+      <packagereq type="default">glibc</packagereq>
+      <packagereq type="default">glibc-common</packagereq>
+      <packagereq type="default">geoclue</packagereq>
+      <packagereq type="default">gst-plugins-good</packagereq>
+      <packagereq type="default">gstreamer</packagereq>
+      <packagereq type="default">gupnp</packagereq>
+      <packagereq type="default">kcalcore</packagereq>
+      <packagereq type="default">libaccounts-glib</packagereq>
+      <packagereq type="default">libaccounts-qt</packagereq>
+      <packagereq type="default">libdres</packagereq>
+      <packagereq type="default">ohm-plugin-resolver</packagereq>
+      <packagereq type="default">libdsme</packagereq>
+      <packagereq type="default">libprolog</packagereq>
+      <packagereq type="default">libqttracker</packagereq>
+      <packagereq type="default">libresource</packagereq>
+      <packagereq type="default">libresource-client</packagereq>
+      <packagereq type="default">libsignon</packagereq>
+      <packagereq type="default">libsignon-passwordplugin</packagereq>
+      <packagereq type="default">libsignon-saslplugin</packagereq>
+      <packagereq type="default">libtelepathy</packagereq>
+      <packagereq type="default">libtrace</packagereq>
+      <packagereq type="default">mesa-libGLU</packagereq>
+      <packagereq type="default">mesa-libGLUT</packagereq>
+      <packagereq type="default">mesa-libOSMesa</packagereq>
+      <packagereq type="default">obexd</packagereq>
+      <packagereq type="default">ofono</packagereq>
+      <packagereq type="default">ohm</packagereq>
+      <packagereq type="default">ohm-config</packagereq>
+      <packagereq type="default">ohm-plugin-core</packagereq>
+      <packagereq type="default">ohm-plugins-misc</packagereq>
+      <packagereq type="default">PackageKit</packagereq>
+      <packagereq type="default">PackageKit-glib</packagereq>
+      <packagereq type="default">PackageKit-qt</packagereq>
+      <packagereq type="default">PackageKit-zypp</packagereq>
+      <packagereq type="default">pulseaudio</packagereq>
+      <packagereq type="default">libqtcore4</packagereq>
+      <packagereq type="default">libqtdbus4</packagereq>
+      <packagereq type="default">libqtdeclarative4</packagereq>
+      <packagereq type="default">libqtdeclarative4-folderlistmodel</packagereq>
+      <packagereq type="default">libqtdeclarative4-gestures</packagereq>
+      <packagereq type="default">libqtdeclarative4-particles</packagereq>
+      <packagereq type="default">libqtdesigner4</packagereq>
+      <packagereq type="default">libqtgui4</packagereq>
+      <packagereq type="default">libqtnetwork4</packagereq>
+      <packagereq type="default">libqtopengl4</packagereq>
+      <packagereq type="default">libqtsql4</packagereq>
+      <packagereq type="default">libqtsql4-sqlite</packagereq>
+      <packagereq type="default">libqtsvg4</packagereq>
+      <packagereq type="default">libqttest4</packagereq>
+      <packagereq type="default">libqtxml4</packagereq>
+      <packagereq type="default">libqtxmlpatterns4</packagereq>
+      <packagereq type="default">qtcontacts-tracker</packagereq>
+      <packagereq type="default">libdeclarative-contacts</packagereq>
+      <packagereq type="default">libdeclarative-multimedia</packagereq>
+      <packagereq type="default">libdeclarative-publishsubscribe</packagereq>
+      <packagereq type="default">libdeclarative-sensors</packagereq>
+      <packagereq type="default">libdeclarative-serviceframework</packagereq>
+      <packagereq type="default">libqtcontacts1</packagereq>
+      <packagereq type="default">libqtlocation1</packagereq>
+      <packagereq type="default">libqtmessaging1</packagereq>
+      <packagereq type="default">libqtmultimediakit1</packagereq>
+      <packagereq type="default">libqtpublishsubscribe1</packagereq>
+      <packagereq type="default">libqtsensors1</packagereq>
+      <packagereq type="default">libqtserviceframework1</packagereq>
+      <packagereq type="default">libqtsysteminfo1</packagereq>
+      <packagereq type="default">libqtversit1</packagereq>
+      <packagereq type="default">qt-mobility</packagereq>
+      <packagereq type="default">servicefw</packagereq>
+      <packagereq type="default">libqtwebkit4</packagereq>
+      <packagereq type="default">libqtwebkit-qmlwebkitplugin</packagereq>
+      <packagereq type="default">qt-web-runtime</packagereq>
+      <packagereq type="default">sensorfw</packagereq>
+      <packagereq type="default">swi-prolog-lib</packagereq>
+      <packagereq type="default">swi-prolog-lib-core</packagereq>
+      <packagereq type="default">telepathy-farsight</packagereq>
+      <packagereq type="default">telepathy-gabble</packagereq>
+      <packagereq type="default">telepathy-glib</packagereq>
+      <packagereq type="default">telepathy-mission-control</packagereq>
+      <packagereq type="default">telepathy-qt4</packagereq>
+      <packagereq type="default">telepathy-qt4-farsight</packagereq>
+      <packagereq type="default">telepathy-ring</packagereq>
+      <packagereq type="default">telepathy-sofiasip</packagereq>
+      <packagereq type="default">timed</packagereq>
+      <packagereq type="default">tracker</packagereq>
+      <packagereq type="default">libgudev1</packagereq>
+      <packagereq type="default">libudev</packagereq>
+      <packagereq type="default">udev</packagereq>
+      <packagereq type="default">udisks</packagereq>
+      <packagereq type="default">upower</packagereq>
+      <packagereq type="default">wpa_supplicant</packagereq>
+      <packagereq type="default">xorg-x11-font-utils</packagereq>
+      <packagereq type="default">xorg-x11-server</packagereq>
+      <packagereq type="default">xorg-x11-server-common</packagereq>
+      <packagereq type="default">xorg-x11-utils</packagereq>
+      <packagereq type="default">xorg-x11-utils-xrandr</packagereq>
+      <packagereq type="default">xorg-x11-xauth</packagereq>
+      <packagereq type="default">xorg-x11-xkb-utils</packagereq>
+      <packagereq type="default">geoclue</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-base</id>
+    <name>MeeGo Base</name>
+    <default>true</default>
+    <description>Basic console based system</description>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">pam</packagereq>
+      <packagereq type="default">rootfiles</packagereq>
+      <packagereq type="default">bash</packagereq>
+      <packagereq type="default">sysvinit</packagereq>
+      <packagereq type="default">coreutils</packagereq>
+      <packagereq type="default">cpio</packagereq>
+      <packagereq type="default">fuse</packagereq>
+      <packagereq type="default">fuse-libs</packagereq>
+      <packagereq type="default">time</packagereq>
+      <packagereq type="default">e2fsprogs</packagereq>
+      <packagereq type="default">meego-release</packagereq>
+      <packagereq type="default">file</packagereq>
+      <packagereq type="default">filesystem</packagereq>
+      <packagereq type="default">fastinit</packagereq>
+      <packagereq type="default">iproute</packagereq>
+      <packagereq type="default">kbd</packagereq>
+      <packagereq type="default">passwd</packagereq>
+      <packagereq type="default">prelink</packagereq>
+      <packagereq type="default">procps</packagereq>
+      <packagereq type="default">readline</packagereq>
+      <packagereq type="default">nss</packagereq>
+      <packagereq type="default">rpm</packagereq>
+      <packagereq type="default">sysklogd</packagereq>
+      <packagereq type="default">setup</packagereq>
+      <packagereq type="default">shadow-utils</packagereq>
+      <packagereq type="default">util-linux-ng</packagereq>
+      <packagereq type="default">udisks</packagereq>
+      <packagereq type="default">upower</packagereq>
+      <packagereq type="default">unzip</packagereq>
+      <packagereq type="default">nss-mdns</packagereq>
+      <packagereq type="default">connman</packagereq>
+      <packagereq type="default">mailcap</packagereq>
+      <packagereq type="default">acpid</packagereq>
+      <packagereq type="default">iputils</packagereq>
+      <packagereq type="default">pm-utils</packagereq>
+      <packagereq type="default">wireless-tools</packagereq>
+      <packagereq type="default">sreadahead</packagereq>
+      <packagereq type="default">sudo</packagereq>
+      <packagereq type="default">usbutils</packagereq>
+      <packagereq type="default">zypper</packagereq>
+      <packagereq type="default">deltarpm</packagereq>
+      <packagereq type="default">linux-firmware</packagereq>
+      <packagereq type="default">gettext-libs</packagereq>
+      <packagereq type="default">xdg-user-dirs</packagereq>
+      <packagereq type="default">shared-mime-info</packagereq>
+      <packagereq type="default">crda</packagereq>
+      <packagereq type="default">aegis-certman</packagereq>
+      <packagereq type="default">aegis-crypto</packagereq>  
+      <packagereq type="default">libsmack</packagereq> 
+    </packagelist>
+  </group>
+
+  <group>
+    <id>meego-touch-framework</id>
+    <name>MeeGo Touch</name>
+    <description>MeeGo Touch Packages</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+ 
+    <packagelist>
+		<packagereq type="default">libmeegotouch</packagereq>
+		<packagereq type="default">meegotouch-compositor</packagereq>
+		<packagereq type="default">meegotouch-controlpanel</packagereq>
+		<packagereq type="default">meegotouch-home</packagereq>
+		<packagereq type="default">meegotouch-inputmethodkeyboard</packagereq>
+		<packagereq type="default">meegotouch-systemui</packagereq>
+		<packagereq type="default">meegotouch-applauncherd</packagereq>
+		<packagereq type="default">meegotouch-applifed</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>meego-base-x</id>
+    <name>MeeGo X Window System</name>
+    <description>MeeGo base graphical (X) user interface.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <grouplist>
+      <groupreq>base</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">xorg-x11-fonts-100dpi</packagereq>
+      <packagereq type="default">xorg-x11-fonts-ISO8859-1-100dpi</packagereq>
+      <packagereq type="default">xorg-x11-fonts-misc</packagereq>
+      <packagereq type="default">xorg-x11-fonts-Type1</packagereq>
+      <packagereq type="default">dbus-x11</packagereq>
+      <packagereq type="default">xorg-x11-xauth</packagereq>
+      <packagereq type="default">xorg-x11-apps</packagereq>
+      <packagereq type="default">xorg-x11-utils</packagereq>
+      <packagereq type="default">xorg-x11-twm</packagereq>
+      <packagereq type="default">uxlaunch</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-minimal-x</id>
+    <name>Minimal MeeGo X Window System</name>
+    <description>minimal set of MeeGo base graphical (X) user interface.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">xorg-x11-fonts-100dpi</packagereq>
+      <packagereq type="default">xorg-x11-fonts-ISO8859-1-100dpi</packagereq>
+      <packagereq type="default">xorg-x11-fonts-misc</packagereq>
+      <packagereq type="default">xorg-x11-fonts-Type1</packagereq>
+      <packagereq type="default">dbus-x11</packagereq>
+      <packagereq type="default">xorg-x11-xinit</packagereq>
+      <packagereq type="default">uxlaunch</packagereq>
+      <packagereq type="default">xterm</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-base-development</id>
+    <name>MeeGo Base Development</name>
+    <default>true</default>
+    <description>This group includes a minimal set of packages for test and development.</description>
+    <grouplist>
+      <groupreq>core</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">openssh-clients</packagereq>
+      <packagereq type="default">openssh-server</packagereq>
+      <packagereq type="default">wget</packagereq>
+      <packagereq type="default">strace</packagereq>
+      <packagereq type="default">corewatcher</packagereq>
+ 	  <packagereq type="default">zypper</packagereq>
+      <packagereq type="default">glx-utils</packagereq>
+      <packagereq type="default">bootchart</packagereq>
+      <packagereq type="default">powertop</packagereq>
+      <packagereq type="default">minicom</packagereq>
+  	  <packagereq type="default">ofono-test</packagereq>
+	  <packagereq type="default">gdb</packagereq>
+	  <packagereq type="default">gdb-gdbserver</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-printing</id>
+    <name>Printing</name>
+    <description>Printing Support.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <grouplist>
+      <groupreq>base</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">cups</packagereq>
+      <packagereq type="default">system-config-printer</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-ivi-x</id>
+    <name>X for IVI</name>
+    <description>Graphical (X) user interface support for IVI.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <grouplist>
+      <groupreq>base</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">xorg-x11-server-Xorg-setuid</packagereq>
+      <packagereq type="default">tsc2007-config</packagereq>
+      <packagereq type="default">xorg-x11-drv-vesa</packagereq>
+      <packagereq type="default">libXxf86dga</packagereq>
+      <packagereq type="default">xorg-x11-drv-vesa</packagereq>
+      <packagereq type="default">xorg-x11-drv-synaptics</packagereq>
+      <packagereq type="default">xorg-x11-drv-intel</packagereq>
+      <packagereq type="default">mesa-dri-swrast-driver</packagereq>
+      <packagereq type="default">libdrm</packagereq>
+      <packagereq type="default">libGL</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-handset-x</id>
+    <name>X for Handsets</name>
+    <description>Graphical (X) user interface support for handsets.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <grouplist>
+      <groupreq>base</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">xorg-x11-server-Xorg-setuid</packagereq>
+      <packagereq type="default">xorg-x11-meego-configs</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-netbook-x</id>
+    <name>X for Netbooks</name>
+    <description>Graphical (X) user interface support for Netbooks.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <grouplist>
+      <groupreq>base</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">xorg-x11-server-Xorg</packagereq>
+      <packagereq type="default">xorg-x11-drv-intel</packagereq>
+      <packagereq type="default">xorg-x11-drv-vesa</packagereq>
+      <packagereq type="default">mesa-dri-i915-driver</packagereq>
+      <packagereq type="default">mesa-dri-i965-driver</packagereq>
+      <packagereq type="default">mesa-dri-swrast-driver</packagereq>
+      <packagereq type="default">xorg-x11-drv-vesa</packagereq>
+      <packagereq type="default">xorg-x11-drv-synaptics</packagereq>
+      <packagereq type="default">mesa-dri-swrast-driver</packagereq>
+      <packagereq type="default">libdrm</packagereq>
+      <packagereq type="default">libGL</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-vmm-x</id>
+    <name>Virtual Machine Support</name>
+    <description>Packages needed to run in virtual machines</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <grouplist>
+      <groupreq>base-x</groupreq>
+    </grouplist>
+    <packagelist>
+      <packagereq type="default">xorg-x11-drv-kvm</packagereq>
+      <packagereq type="default">xorg-x11-drv-vmware</packagereq>
+      <packagereq type="default">xorg-x11-drv-vmmouse</packagereq>
+	  <packagereq type="default">xorg-x11-server-Xorg-setuid</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-base-hardware-support</id>
+    <name>Basic Hardware Support</name>
+    <description>Basic hardware support.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">linux-firmware</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-ivi-desktop</id>
+    <name>IVI Desktop</name>
+    <description>All packages needed to boot ivi platform</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">libgphoto2</packagereq>
+      <packagereq type="default">libmtp</packagereq>
+      <packagereq type="default">libopensync</packagereq>
+      <packagereq type="default">libopensync-plugin-vformat</packagereq>
+      <packagereq type="default">librapi2</packagereq>
+      <packagereq type="default">librds</packagereq>
+      <packagereq type="default">libsynce</packagereq>
+      <packagereq type="default">rdsd</packagereq>
+      <packagereq type="default">rdsquery</packagereq>
+      <packagereq type="default">festival</packagereq>
+      <packagereq type="default">alsa-plugins-pulseaudio</packagereq>
+      <packagereq type="default">pulseaudio-module-x11</packagereq>
+      <packagereq type="default">speech-dispatcher</packagereq>
+      <packagereq type="default">festival-freebsoft-utils</packagereq>
+      <packagereq type="default">dotconf</packagereq>
+      <packagereq type="default">ivihome</packagereq>
+	  <packagereq type="default">nodoka-filesystem</packagereq>
+      <packagereq type="default">desktop-backgrounds-basic</packagereq>
+      <packagereq type="default">installer-shell</packagereq>
+      <packagereq type="default">installer</packagereq>
+      <packagereq type="default">meegotouchcp-datetime</packagereq>
+	  <packagereq type="default">udiskie</packagereq>
+	<packagereq type="default">bluez-alsa</packagereq>
+	<packagereq type="default">meego-ivi-configs</packagereq>
+	
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-moorestown-support</id>
+    <name>Moorestown Support</name>
+    <description>All packages needed to boot moorestown platform</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">wlanconfig</packagereq>
+      <packagereq type="default">bootstub</packagereq>
+      <packagereq type="default">mkinitrd</packagereq>
+      <packagereq type="default">fw-update</packagereq>
+      <packagereq type="default">udev-rules-handset-mid</packagereq>
+      <packagereq type="default">psb-video</packagereq>
+      <packagereq type="default">pvr-bin</packagereq>
+      <packagereq type="default">libva</packagereq>
+	  <packagereq type="default">libCI</packagereq>
+      <packagereq type="default">glx-utils</packagereq>
+      <packagereq type="default">mesa-libGLUT</packagereq>
+      <packagereq type="default">ospm</packagereq>
+      <packagereq type="default">libmemrar</packagereq>
+      <packagereq type="default">pulseaudio-settings-mfld</packagereq>
+      <packagereq type="default">monitor-call-audio-setting-mid</packagereq>
+      <packagereq type="default">xorg-x11-drv-mtev</packagereq>
+	  <packagereq type="default">xinput_calibrator</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-nokia-n900-support</id>
+    <name>Nokia N900 Support</name>
+    <description>Opensource support packages for Nokia N900</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">kernel-n900</packagereq>
+      <packagereq type="default">n900-camera-firmware</packagereq>
+      <packagereq type="default">nokia-n900-configs</packagereq>
+      <packagereq type="default">nokia-usb-networking</packagereq>
+      <packagereq type="default">pulseaudio-modules-meego-cmtspeech</packagereq>
+      <packagereq type="default">pulseaudio-modules-meego-voice</packagereq>
+      <packagereq type="default">pulseaudio-settings-n900</packagereq>
+      <packagereq type="default">udev-rules-nokia-n900</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-nokia-n900-proprietary-support</id>
+    <name>Nokia N900 Proprietary Support</name>
+    <description>Nokia N900 Proprietary Support Packages</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">bcm-bt-firmware</packagereq>
+      <packagereq type="default">bme-rx-51-bin</packagereq>
+      <packagereq type="default">pulseaudio-modules-nokia-algorithms-bin</packagereq>
+      <packagereq type="default">pulseaudio-modules-nokia-audiots-bin</packagereq>
+      <packagereq type="default">pulseaudio-modules-nokia-parameters-bin</packagereq>
+      <packagereq type="default">ti-omap3-sgx-libEGL</packagereq>
+      <packagereq type="default">ti-omap3-sgx-libGLESv1</packagereq>
+      <packagereq type="default">ti-omap3-sgx-libGLESv2</packagereq>
+      <packagereq type="default">ti-wl1251-firmware</packagereq>
+      <packagereq type="default">xorg-x11-drv-fbdev-sgx</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-games</id>
+    <name>Games</name>
+    <description>Games</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">neverball</packagereq>
+      <packagereq type="default">gnome-games</packagereq>
+      <packagereq type="default">frozen-bubble</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-netbook-desktop</id>
+    <name>MeeGo Netbook Desktop</name>
+    <description>MeeGo Netbook Desktop</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">plymouth-lite</packagereq>
+      <packagereq type="default">alsa-utils</packagereq>
+      <packagereq type="default">banshee-1</packagereq>
+      <packagereq type="default">banshee-1-backend-platform-meego</packagereq>
+      <packagereq type="default">banshee-1-backend-platform-gnome</packagereq>
+      <packagereq type="default">banshee-1-branding-meego</packagereq>
+      <packagereq type="default">banshee-1-client-classic</packagereq>
+      <packagereq type="default">banshee-1-dmp</packagereq>
+      <packagereq type="default">banshee-1-dmp-mtp</packagereq>
+      <packagereq type="default">banshee-1-extensions-default</packagereq>
+      <packagereq type="default">banshee-1-backend-platform-unix</packagereq>
+      <packagereq type="default">bisho</packagereq>
+      <packagereq type="default">cheese</packagereq>
+      <packagereq type="default">chrome-meego-extension</packagereq>
+      <packagereq type="default">cjkuni-fonts</packagereq>
+      <packagereq type="default">droid-sans-fonts</packagereq>
+      <packagereq type="default">droid-sans-mono-fonts</packagereq>
+      <packagereq type="default">droid-serif-fonts</packagereq>
+      <packagereq type="default">empathy</packagereq>
+      <packagereq type="default">eog</packagereq>
+      <packagereq type="default">evince</packagereq>
+      <packagereq type="default">evolution</packagereq>
+      <packagereq type="default">firstboot</packagereq>
+      <packagereq type="default">file-roller</packagereq>
+      <packagereq type="default">libproxy-gnome</packagereq>
+      <packagereq type="default">libproxy-webkit</packagereq>
+      <packagereq type="default">tasks</packagereq>
+      <packagereq type="default">garage-client-services</packagereq>
+      <packagereq type="default">garage-netbook-ui</packagereq>
+      <packagereq type="default">gdu-nautilus-extension</packagereq>
+      <packagereq type="default">gcalctool</packagereq>
+      <packagereq type="default">gedit</packagereq>
+      <packagereq type="default">gnome-packagekit</packagereq>
+      <packagereq type="default">gnome-disk-utility</packagereq>
+      <packagereq type="default">gnome-media</packagereq>
+      <packagereq type="default">gnome-terminal</packagereq>
+      <packagereq type="default">gnome-bluetooth-meego</packagereq>
+      <packagereq type="default">gnome-utils</packagereq>
+      <packagereq type="default">gnome-control-center-netbook</packagereq>
+      <packagereq type="default">gnome-icon-theme</packagereq>
+      <packagereq type="default">gnome-screensaver</packagereq>
+      <packagereq type="default">gnome-terminal</packagereq>
+      <packagereq type="default">google-gadgets-meego</packagereq>
+      <packagereq type="default">gst-plugins-bad-free</packagereq>
+      <packagereq type="default">gvfs</packagereq>
+      <packagereq type="default">gvfs-smb</packagereq>
+      <packagereq type="default">installer</packagereq>
+      <packagereq type="default">jana</packagereq>
+      <packagereq type="default">sample-media</packagereq>
+      <packagereq type="default">syncevolution-gtk</packagereq>
+      <packagereq type="default">libsocialweb</packagereq>
+      <packagereq type="default">libsocialweb-keys</packagereq>
+      <packagereq type="default">meego-help</packagereq>
+      <packagereq type="default">meego-netbook-intro</packagereq>
+      <packagereq type="default">meego-cursor-theme</packagereq>
+      <packagereq type="default">netbook-icon-theme</packagereq>
+      <packagereq type="default">moblin-gtk-engine</packagereq>
+      <packagereq type="default">meego-menus</packagereq>
+      <packagereq type="default">meego-sound-theme</packagereq>
+      <packagereq type="default">meego-panel-applications</packagereq>
+      <packagereq type="default">meego-panel-myzone</packagereq>
+      <packagereq type="default">meego-panel-people</packagereq>
+      <packagereq type="default">meego-panel-pasteboard</packagereq>
+      <packagereq type="default">meego-panel-status</packagereq>
+      <packagereq type="default">meego-panel-devices</packagereq>
+      <packagereq type="default">meego-panel-datetime</packagereq>
+      <packagereq type="default">meego-panel-zones</packagereq>
+      <packagereq type="default">meego-panel-networks</packagereq>
+      <packagereq type="default">meego-panel-web</packagereq>
+      <packagereq type="default">moblin-user-skel</packagereq>
+      <packagereq type="default">meego-ux-settings</packagereq>
+      <packagereq type="default">mutter-meego</packagereq>
+      <packagereq type="default">mx</packagereq>
+      <packagereq type="default">nautilus</packagereq>
+      <packagereq type="default">netbook-backgrounds</packagereq>      
+      <packagereq type="default">PackageKit-browser-plugin</packagereq>
+      <packagereq type="default">PackageKit-zypp</packagereq>
+      <packagereq type="default">pulseaudio-module-x11</packagereq>
+      <packagereq type="default">PolicyKit-gnome</packagereq>
+      <packagereq type="default">system-config-language</packagereq>
+      <packagereq type="default">telepathy-idle</packagereq>
+      <packagereq type="default">telepathy-haze</packagereq>
+      <packagereq type="default">telepathy-butterfly</packagereq>
+      <packagereq type="default">vlgothic-fonts</packagereq>
+      <packagereq type="default">yelp</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-handset-desktop</id>
+    <name>MeeGo Handset Desktop</name>
+    <description>MeeGo Handset Desktop</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">contextkit-meego-providers</packagereq>
+      <packagereq type="default">droid-sans-fonts</packagereq>
+      <packagereq type="default">droid-sans-mono-fonts</packagereq>
+      <packagereq type="default">droid-serif-fonts</packagereq>
+      <packagereq type="default">libmeegotouch</packagereq>
+      <packagereq type="default">meegotouch-compositor</packagereq>
+      <packagereq type="default">meegotouch-controlpanel</packagereq>
+      <packagereq type="default">meegotouch-home</packagereq>
+      <packagereq type="default">meegotouch-inputmethodframework</packagereq>
+      <packagereq type="default">meegotouch-inputmethodkeyboard</packagereq>
+      <packagereq type="default">meegotouch-feedback</packagereq>
+      <packagereq type="default">meegotouch-feedbackreactionmaps</packagereq>
+      <packagereq type="default">meegotouch-inputmethodengine</packagereq>
+      <packagereq type="default">meegotouch-theme-meego</packagereq>
+      <packagereq type="default">meegotouch-systemui</packagereq>
+      <packagereq type="default">meegotouch-theme-common</packagereq>
+      <packagereq type="default">meegotouch-inputmethodbridges</packagereq>
+      <packagereq type="default">meegotouch-applauncherd</packagereq>
+      <packagereq type="default">meegotouch-applifed</packagereq>
+      <packagereq type="default">meegotouchcp-about</packagereq>
+      <packagereq type="default">meegotouchcp-theme</packagereq>
+      <packagereq type="default">meegotouchcp-wallpaper</packagereq>
+      <packagereq type="default">meego-handset-icon-theme</packagereq>
+      <packagereq type="default">meego-handset-statusindicators</packagereq>
+    
+      <packagereq type="default">phonesim</packagereq>
+      <packagereq type="default">qtcontacts-tracker</packagereq>
+      <packagereq type="default">sample-media</packagereq>
+      <packagereq type="default">smshistory</packagereq>
+      <packagereq type="default">tracker</packagereq>
+      <packagereq type="default">voicecallhistory</packagereq>
+      <packagereq type="default">gst-plugins-bad-free</packagereq>
+      <packagereq type="default">pulseaudio-startup</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-handset-applications</id>
+    <name>MeeGo Handset Applications</name>
+    <description>MeeGo Handset Applications</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">fennec-qt</packagereq>
+      <packagereq type="default">meego-handset-chat</packagereq>
+      <packagereq type="default">meego-handset-calendar</packagereq>
+      <packagereq type="default">meego-handset-configs</packagereq>
+      <packagereq type="default">meego-handset-dialer</packagereq>
+      <packagereq type="default">meego-handset-email</packagereq>
+      <packagereq type="default">meego-handset-mannequin</packagereq>
+      <packagereq type="default">meego-handset-people</packagereq>
+      <packagereq type="default">meego-handset-video</packagereq>
+      <packagereq type="default">meego-handset-sms</packagereq>
+      <packagereq type="default">meego-handset-socialweb</packagereq>
+      <packagereq type="default">meego-handset-photos</packagereq>
+      <packagereq type="default">meego-handset-music</packagereq>
+      <packagereq type="default">meegotouchcp-connman</packagereq>
+      <packagereq type="default">meegotouchcp-bluetooth</packagereq>
+      <packagereq type="default">meegotouchcp-telephony</packagereq>
+      <packagereq type="default">meegotouchcp-datetime</packagereq>
+      <packagereq type="default">meegotouchcp-language</packagereq>
+      <packagereq type="default">meego-handset-dialer-branding-meego</packagereq>
+      <packagereq type="default">meego-handset-video-branding-meego</packagereq>
+      <packagereq type="default">meego-handset-music-branding-meego</packagereq>
+      <packagereq type="default">meego-handset-photos-branding-meego</packagereq>
+      <packagereq type="default">fennec-qt-branding-meego</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>meego-ivi-applications</id>
+    <name>MeeGo IVI Applications</name>
+    <description>MeeGo IVI Applications</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">fennec-qt</packagereq>
+      <packagereq type="default">hfdialer</packagereq>
+      <packagereq type="default">meego-handset-people</packagereq>
+      <packagereq type="default">meego-handset-photos</packagereq>
+      <packagereq type="default">meego-handset-icon-theme</packagereq>
+      <packagereq type="default">meego-handset-video</packagereq>
+      <packagereq type="default">meego-handset-music</packagereq>
+      <packagereq type="default">meegotouch-controlpanel</packagereq>
+      <packagereq type="default">meegotouchcp-connman-ivi</packagereq>
+      <packagereq type="default">meegotouchcp-bluetooth</packagereq>
+      <packagereq type="default">gnome-packagekit</packagereq>
+      <packagereq type="default">navit</packagereq>
+      <packagereq type="default">navit-maps</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>meego-wimax</id>
+    <name>Wimax Support</name>
+    <description>Wimax Support</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">connman-iwmxsdk</packagereq>
+      <packagereq type="default">connman</packagereq>
+      <packagereq type="default">wimax-tools</packagereq>
+      <packagereq type="default">WiMAX-Network-Service</packagereq>
+      <packagereq type="default">Intel-WiMAX-Binary-Supplicant</packagereq>
+    </packagelist>
+  </group>
+
+  <group>
+    <id>meego-development-tools</id>
+    <name>Development Tools</name>
+    <description>These tools include core development tools such as automake, gcc, perl, python, and
+      debuggers.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">vim-enhanced</packagereq>
+      <packagereq type="default">gcc</packagereq>
+      <packagereq type="default">bootchart</packagereq>
+      <packagereq type="default">autoconf</packagereq>
+      <packagereq type="default">automake</packagereq>
+      <packagereq type="default">make</packagereq>
+      <packagereq type="default">libtool</packagereq>
+      <packagereq type="default">m4</packagereq>
+      <packagereq type="default">binutils</packagereq>
+      <packagereq type="default">bison</packagereq>
+      <packagereq type="default">flex</packagereq>
+      <packagereq type="default">gcc-c++</packagereq>
+      <packagereq type="default">gdb</packagereq>
+      <packagereq type="default">gettext-devel</packagereq>
+      <packagereq type="default">intltool</packagereq>
+      <packagereq type="default">pkgconfig</packagereq>
+      <packagereq type="default">meego-rpm-config</packagereq>
+      <packagereq type="default">rpm-build</packagereq>
+      <packagereq type="default">strace</packagereq>
+      <packagereq type="default">openssh-server</packagereq>
+      <packagereq type="default">tar</packagereq>
+      <packagereq type="default">diffstat</packagereq>
+      <packagereq type="default">elfutils</packagereq>
+      <packagereq type="default">man</packagereq>
+      <packagereq type="default">indent</packagereq>
+      <packagereq type="default">patchutils</packagereq>
+      <packagereq type="default">git</packagereq>
+      <packagereq type="default">valgrind</packagereq>
+      <packagereq type="default">sysprof</packagereq>
+      <packagereq type="default">cmake</packagereq>
+      <packagereq type="default">rsync</packagereq>
+      <packagereq type="default">diffutils</packagereq>
+      <packagereq type="default">powertop</packagereq>
+      <packagereq type="default">nano</packagereq>
+      <packagereq type="default">nasm</packagereq>
+      <packagereq type="default">yasm</packagereq>
+      <packagereq type="default">perf</packagereq>
+      <packagereq type="default">latencytop</packagereq>
+      <packagereq type="default">memuse</packagereq>
+      <packagereq type="default">bc</packagereq>
+    </packagelist>
+  </group>
+
+
+  <group>
+    <id>base-double-byte-ime-support</id>
+    <name>Base Double Byte IME Support</name>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">scim</packagereq>
+      <packagereq type="default">scim-bridge</packagereq>
+      <packagereq type="default">scim-bridge-gtk</packagereq>
+      <packagereq type="default">scim-bridge-clutter</packagereq>
+      <packagereq type="default">clutter-imcontext</packagereq>
+      <packagereq type="default">scim-pinyin</packagereq>
+      <packagereq type="default">scim-skk</packagereq>
+      <packagereq type="default">scim-hangul</packagereq>
+      <packagereq type="default">scim-chewing</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>chinese-support</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <langonly>zh</langonly>
+    <name>Chinese Support</name>
+    <description>Chinese Support</description>
+    <packagelist>
+      <packagereq type="default">scim</packagereq>
+      <packagereq type="default">scim-bridge</packagereq>
+      <packagereq type="default">scim-bridge-gtk</packagereq>
+      <packagereq type="default">scim-bridge-clutter</packagereq>
+      <packagereq type="default">clutter-imcontext</packagereq>
+      <packagereq type="default">scim-pinyin</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>japanese-support</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <langonly>ja</langonly>
+    <name>Japanese Support</name>
+    <description>Japanese Support</description>
+    <packagelist>
+      <packagereq type="default">vlgothic-fonts</packagereq>
+      <packagereq type="default">vlgothic-fonts-common</packagereq>
+      <packagereq type="default">vlgothic-p-fonts</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>korean-support</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <langonly>ko</langonly>
+    <name>Korean Support</name>
+    <description>Korean Support</description>
+    <packagelist>
+      <packagereq type="default">un-core-fonts-dotum</packagereq>
+    </packagelist>
+  </group>
+</comps>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern xmlns:rpm="http://linux.duke.edu/metadata/rpm"
+         xmlns="http://novell.com/package/metadata/suse/pattern">
+   <name>tizen-base</name>
+   <summary>Tizen Base</summary>
+   <description>Basic System</description>
+   <uservisible/>
+   <category lang="en">Base Group</category>
+   <rpm:requires>  
+	<rpm:entry name="bash"/> 
+	<rpm:entry name="coreutils"/> 
+	<rpm:entry name="rpm"/> 
+	<rpm:entry name="udev"/> 
+	<rpm:entry name="tizen-release"/> 
+	<rpm:entry name="filesystem"/> 
+	<rpm:entry name="prelink"/> 
+	<rpm:entry name="readline"/> 
+	<rpm:entry name="setup"/> 
+	<rpm:entry name="passwd"/> 
+	<rpm:entry name="procps"/> 
+	<rpm:entry name="passwd"/> 
+	<rpm:entry name="login"/>  
+	<rpm:entry name="util-linux-ng"/> 
+	<rpm:entry name="e2fsprogs"/> 
+	<rpm:entry name="net-tools"/> 
+	<rpm:entry name="kernel-adaptation-pc"/>  
+	<rpm:entry name="pkgconfig"/> 
+	<rpm:entry name="net-tools"/>  
+	<rpm:entry name="file"/> 
+	<rpm:entry name="psmisc"/>  
+	<rpm:entry name="module-init-tools"/> 
+	<rpm:entry name="cpio"/>  
+	<rpm:entry name="gawk"/>  
+	<rpm:entry name="sed"/> 
+	<rpm:entry name="tar"/>  
+	<rpm:entry name="gzip"/>  
+	<rpm:entry name="grep"/> 
+	<rpm:entry name="bzip2"/>  
+	<rpm:entry name="binutils"/>
+	<rpm:entry name="initscripts"/>  
+	<rpm:entry name="syslinux-extlinux"/>  
+	<rpm:entry name="zypper"/>  
+	<rpm:entry name="gdb"/>    
+	<rpm:entry name="alsa-utils"/>  
+	<rpm:entry name="acpid"/>    
+	<rpm:entry name="mtdev"/>  
+	<rpm:entry name="bluez"/>    
+	<rpm:entry name="less"/>  
+	<rpm:entry name="connman"/>    
+	<rpm:entry name="openssh-server"/>  
+	<rpm:entry name="syslinux"/>    
+	<rpm:entry name="linux-firmware"/>  
+	<rpm:entry name="tizen-repos"/>    
+	<rpm:entry name="libail"/>
+	<rpm:entry name="insserv"/>
+	<rpm:entry name="mingetty"/>
+	<rpm:entry name="sysvinit"/>
+	<rpm:entry name="mkdevnodes"/>
+	<rpm:entry name="strace"/>
+	<rpm:entry name="default-fonts-sdk"/>
+	<rpm:entry name="openssh-clients"/>
+	<rpm:entry name="dlogutil"/>
+	<rpm:entry name="system-plugin-ia-generic"/>
+	<rpm:entry name="audio-session-manager"/>
+	<rpm:entry name="lsb"/>
+	<rpm:entry name="edje-tools"/>
+	<rpm:entry name="drm-service"/>
+	<rpm:entry name="cert-svc"/>
+	<rpm:entry name="bluez-gstreamer"/>
+	<rpm:entry name="sensor-framework"/>
+	<rpm:entry name="libss-client"/>
+	<rpm:entry name="ss-server"/>
+	<rpm:entry name="ss-server"/>
+	<rpm:entry name="libsqlfs"/>
+	<rpm:entry name="tzdata-slp"/>
+	<rpm:entry name="sysvinit-utils"/>
+	<rpm:entry name="rfkill"/>
+	<rpm:entry name="ofono"/>
+	<rpm:entry name="ofono-test"/>
+	<rpm:entry name="dbus-python"/>
+	<rpm:entry name="pygobject2"/>
+	<rpm:entry name="bootchart"/>
+   </rpm:requires>
+</pattern>
+
