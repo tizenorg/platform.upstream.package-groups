@@ -45,4 +45,4 @@ dist-gz:
 dist: dist-bz2
 
 clean:
-	rm -rf patterns.xml INDEX.xml group.xml
+	rm -rf patterns.xml INDEX.xml group.xml *.xml

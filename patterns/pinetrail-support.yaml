@@ -1,7 +1,6 @@
 Description: Pinetrail Support
 Name: pinetrail-support
 Packages:
-- xorg-x11-server
 - mesa-dri-i915-driver
 - mesa-dri-i965-driver
 - mesa-dri-swrast-driver
@@ -9,15 +8,9 @@ Packages:
 - xorg-x11-drv-intel
 - xorg-x11-drv-keyboard
 - xorg-x11-drv-synaptics
-- xkeyboard-config
-- xorg-x11-xinit
-- xorg-x11-xkb-utils
 - xorg-x11-server-misc-emulfb
 - xorg-drv-evdev
-- xorg-x11-utils-xmodmap
 - xorg-x11-drv-evdev-multitouch
-- xorg-x11-utils-xrandr
-- xorg-x11-utils-xinput
 - xorg-drv-mtev
 - kernel-adaptation-pc
 - syslinux-extlinux

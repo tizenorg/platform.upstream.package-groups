@@ -16,4 +16,5 @@ Packages:
 - elementary-tools
 - openssh-server
 - gdb
+- dialog
 Summary: Development Tools
