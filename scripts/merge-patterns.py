@@ -6,16 +6,18 @@ import optparse
 from lxml import etree
 
 
-rpm_ns="http://linux.duke.edu/metadata/rpm"
-pattern_ns="http://novell.com/package/metadata/suse/pattern"
-NSMAP = {None : pattern_ns, "rpm": rpm_ns, "patterns": pattern_ns}
-PATTERN = "{%s}" % pattern_ns
 
 
 def create_patterns(arch='i586', split=False, patterns_dir='patterns'):
 
+    rpm_ns="http://linux.duke.edu/metadata/rpm"
+    pattern_ns="http://novell.com/package/metadata/suse/pattern"
+    PATTERN = "{%s}" % pattern_ns
     if not split:	
         xmlroot = etree.Element("patterns")
+        NSMAP = {None : pattern_ns, "rpm": rpm_ns, "patterns": pattern_ns}
+    else:
+        NSMAP = {None : pattern_ns, "rpm": rpm_ns}
 
     count = 0
     for f in os.listdir(patterns_dir):
@@ -64,7 +66,7 @@ def create_patterns(arch='i586', split=False, patterns_dir='patterns'):
                 entry.set("name", p)
         if split:
             tree = etree.ElementTree(proot)
-            tree.write("%s.xml" %y['Name'])
+            tree.write("%s.xml" %y['Name'], pretty_print=True)
 
     if not split:
         xmlroot.set('count', "%d" %count)
