@@ -12,8 +12,10 @@ NSMAP = {None : pattern_ns, "rpm": rpm_ns, "patterns": pattern_ns}
 PATTERN = "{%s}" % pattern_ns
 
 
-def create_patterns(arch='i586', patterns_dir='patterns'):
-    xmlroot = etree.Element("patterns")
+def create_patterns(arch='i586', split=False, patterns_dir='patterns'):
+
+    if not split:	
+        xmlroot = etree.Element("patterns")
 
     count = 0
     for f in os.listdir(patterns_dir):
@@ -26,7 +28,11 @@ def create_patterns(arch='i586', patterns_dir='patterns'):
         if y.has_key('Arch') and y['Arch'] != arch:
             print "Skipping pattern '%s' because architecture doesn't match ('%s' vs '%s')." % (y['Name'], y['Arch'], arch)
             continue
-        proot = etree.SubElement(xmlroot, "pattern",  nsmap=NSMAP)
+        if split:
+            proot = etree.Element("pattern")
+        else:
+            proot = etree.SubElement(xmlroot, "pattern",  nsmap=NSMAP)
+
         etree.SubElement(proot, "name").text = y['Name']
         etree.SubElement(proot, "summary").text = y['Summary']
         etree.SubElement(proot, "description").text = y['Description']
@@ -56,10 +62,14 @@ def create_patterns(arch='i586', patterns_dir='patterns'):
             else:
                 entry = etree.SubElement(req, "{%s}entry" %rpm_ns)
                 entry.set("name", p)
+        if split:
+            tree = etree.ElementTree(proot)
+            tree.write("%s.xml" %y['Name'])
 
-    xmlroot.set('count', "%d" %count)
-    tree = etree.ElementTree(xmlroot)
-    tree.write("patterns.xml")
+    if not split:
+        xmlroot.set('count', "%d" %count)
+        tree = etree.ElementTree(xmlroot)
+        tree.write("patterns.xml")
 
 
 if __name__ == '__main__':
@@ -67,9 +77,12 @@ if __name__ == '__main__':
 
     parser.add_option("-a", "--arch", type="string", dest="arch",
                     help="architecture")
+    parser.add_option("-s", "--split", action="store_true", dest="split", default=False,
+                    help="split patterns into single files")
         
     (options, args) = parser.parse_args()
 
+    print options.split
     if options.arch and options.arch in ['i586', 'arm']:
-        create_patterns(options.arch)
+        create_patterns(arch=options.arch, split=options.split)
 
