@@ -1,6 +1,7 @@
 Description: Tizen UI
 Name: ui
 Packages:
+- my-account
 - default-fonts-sdk
 - e17
 - menu-screen
