@@ -15,4 +15,5 @@ Packages:
 - geoclue-examples
 - elementary-tools
 - openssh-server
+- gdb
 Summary: Development Tools

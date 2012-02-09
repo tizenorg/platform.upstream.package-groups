@@ -1,0 +1,16 @@
+Description: Medfield Support
+Name: medfield-support
+Packages:
+- xorg-x11-server
+- xorg-x11-drv-fbdev
+- xkeyboard-config
+- xorg-x11-xinit
+- xorg-x11-xkb-utils
+- xorg-x11-server-misc-emulfb
+- xorg-x11-utils-xmodmap
+- xorg-drv-mtev
+- kernel-adaptation-bb
+- linux-firmware-mfld
+- device-configs-MFLD-PR3
+- system-plugin-ia-generic
+Summary: Medfield Support

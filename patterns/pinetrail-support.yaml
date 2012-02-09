@@ -1,5 +1,5 @@
 Description: Pinetrail Support
-Name: tizen-support
+Name: pinetrail-support
 Packages:
 - xorg-x11-server
 - mesa-dri-i915-driver
