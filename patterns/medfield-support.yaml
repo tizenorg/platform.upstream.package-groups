@@ -8,4 +8,5 @@ Packages:
 - linux-firmware-mfld
 - device-configs-MFLD-PR3
 - system-plugin-ia-generic
+- ofono-server
 Summary: Medfield Support
