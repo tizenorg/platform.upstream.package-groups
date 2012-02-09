@@ -28,9 +28,9 @@ changelog:
 	python ./scripts/gitlog2changelog.py
 
 repackage: dist
-	osc branch -c Trunk:Testing $(NAME)
-	rm home\:*\:branches\:Trunk:Testing/$(NAME)/*tar.bz2
-	cp $(NAME)-$(VERSION).tar.bz2 home\:*\:branches\:Trunk:Testing/$(NAME)
+	osc branch -c Tizen:Base $(NAME)
+	rm home\:*\:branches\:Tizen:Base/$(NAME)/*tar.bz2
+	cp $(NAME)-$(VERSION).tar.bz2 home\:*\:branches\:Tizen:Base/$(NAME)
 
 	
 
