@@ -84,7 +84,6 @@ if __name__ == '__main__':
         
     (options, args) = parser.parse_args()
 
-    print options.split
     if options.arch and options.arch in ['i586', 'arm']:
         create_patterns(arch=options.arch, split=options.split)
 

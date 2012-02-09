@@ -15,6 +15,9 @@ all:
 	python scripts/merge-patterns.py -a ${ARCH}
 	xsltproc xsl/comps.xsl patterns.xml > group.xml
 
+meta: 
+	python scripts/merge-patterns.py -a ${ARCH} -s
+
 install:
 	install -d ${DESTDIR}/usr/share/package-groups
 	install -m 644 patterns.xml ${DESTDIR}/usr/share/package-groups
