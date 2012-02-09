@@ -29,7 +29,7 @@ def create_patterns(arch='i586', split=False, patterns_dir='patterns'):
             print "Skipping pattern '%s' because architecture doesn't match ('%s' vs '%s')." % (y['Name'], y['Arch'], arch)
             continue
         if split:
-            proot = etree.Element("pattern")
+            proot = etree.Element("pattern", nsmap=NSMAP)
         else:
             proot = etree.SubElement(xmlroot, "pattern",  nsmap=NSMAP)
 

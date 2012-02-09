@@ -1,5 +1,5 @@
 Description: Tizen UI
-Name: tizen-ui
+Name: ui
 Packages:
 - default-fonts-sdk
 - e17
