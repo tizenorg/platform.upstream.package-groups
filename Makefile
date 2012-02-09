@@ -3,7 +3,7 @@ VERSION = $(shell cat VERSION)
 NAME=package-groups
 TAGVER = $(shell cat VERSION | sed -e "s/\([0-9\.]*\).*/\1/")
 DESTDIR=
-ARCH=
+ARCH=i586
 
 ifeq ($(VERSION), $(TAGVER))
         TAG = $(TAGVER)
@@ -12,7 +12,8 @@ else
 endif
 
 all: 
-	sh update.sh ${ARCH}
+	python scripts/merge-patterns.py -a ${ARCH}
+	xsltproc xsl/comps.xsl patterns.xml > group.xml
 
 install:
 	install -d ${DESTDIR}/usr/share/package-groups

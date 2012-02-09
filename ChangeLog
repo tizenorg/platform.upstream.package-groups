@@ -1,256 +1,304 @@
-2012-02-07  Prajwal Mohan <prajwal.karur.mohan@intel.com>
+2011-08-08  Tracy Graydon <Tracy.Graydon@intel.com>
 
-  * VERSION: Bump version to 0.70
+  * VERSION, patterns/ivi.yaml: Bump VERSION to 0.86
 
-  * Initial packaging for Tizen
+2011-08-04  Tracy Graydon <Tracy.Graydon@intel.com>
+
+  * ChangeLog: Changelog
+
+  * VERSION: Bump VERSION to 0.85
+
+  * patterns/ivi.yaml: Remove festival from IVI images. Broken dependencies
+  breaking images.
+
+2011-08-03  Tracy Graydon <Tracy.Graydon@intel.com>
+
+  * ChangeLog: Changelog
+
+  * VERSION: Bump ver to 0.84
+
+  * patterns/ivi-applications.yaml, patterns/ivi-platform-support.yaml,
+  patterns/ivi.yaml: Misc IVI package changes to remove stuff broken or no
+  longer in Trunk.
+
+2011-07-25  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
+
+  * ChangeLog: Renamed gnome-control-center back to
+  gnome-control-center-netbook
+
+  * VERSION, patterns/netbook.yaml: Renamed gnome-control-center back to
+  gnome-control-center-netbook
 
 2011-07-15  Tracy Graydon <Tracy.Graydon@intel.com>
 
-  * VERSION: Bump version to 0.61.34
+  * ChangeLog: Changelog
 
-  * patterns/meego-ivi-desktop.xml: IVI: BMC#20276  Add missing gvfs support
-  for tracker.
+  * VERSION: Um...empty VERSION file. Weird. Fixing.
 
-2011-07-12  Peter Zhu <peter.j.zhu@intel.com>
+  * VERSION: Bump VERSION to 0.82
 
-  * ChangeLog: Update Changelog
+  * patterns/ivi.yaml: BMC#21275: IVI needs gvfs packages for tracker support.
 
-  * VERSION: Bump versin
+2011-07-11  Tracy Graydon <Tracy.Graydon@intel.com>
 
-  * patterns/meego-tablet.xml: Remove langs N/A for tablet
+  * ChangeLog: Changelog
 
-  * VERSION: Bump Version to 0.32
+  * VERSION: Bump ver to 0.81
 
-  * ChangeLog: Update changelog
+  * patterns/ivi-applications.yaml: Remove meego-handset-icon-theme from IVI.
+  Defunct package no longer in Trunk.
 
-  * VERSION: Bump version
+2011-07-03  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
 
-  * patterns/meego-tablet.xml: Remove syncevolution-buteo to fix BMC#20606
+  * ChangeLog: Removing kcalcore and kcal from compliance and full-compliance
+  due to obsolete libmeegotouch requirement.
 
-2011-06-29  Prajwal Mohan <prajwal.karur.mohan@intel.com>
+  * VERSION, patterns/compliance.yaml, patterns/full-compliance.yaml: Removing
+  kcalcore and kcal from compliance and full-compliance due to obsolete
+  libmeegotouch requirement.
 
-  * patterns/meego-tablet.xml: Adding more lang packages to tablet patterns
+2011-06-30  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
 
-2011-06-23  Peter Zhu <peter.j.zhu@intel.com>
+  * ChangeLog: Removed meego-panel-datetime
 
-  * ChangeLog: Update changelog
+  * VERSION, patterns/netbook.yaml: Removed meego-panel-datetime
 
-  * VERSION: Update changelog
+  * ChangeLog: Renamed gnome bluetooth and gnome-control-center
 
-  * patterns/meego-tablet.xml: use lbooster to fix BZ#9876
+  * VERSION, patterns/netbook.yaml: Renamed gnome bluetooth and
+  gnome-control-center
 
-2011-06-22  Peter Zhu <peter.j.zhu@intel.com>
+  * ChangeLog: Renamed nautilus-extension package
 
-  * ChangeLog: Update Changelog
+  * VERSION: Renamed nautilus-extension package
 
-  * VERSION: Update Version
+  * patterns/netbook.yaml: Renamed nautilus-extension package
 
-  * patterns/meego-tablet.xml: Add meego-ux-alarms
+2011-06-21  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
 
-2011-06-21  Peter Zhu <peter.j.zhu@intel.com>
+  * ChangeLog: Replaced util-linux-ng with new upstream util-linux
 
-  * ChangeLog: Update changelog
+  * VERSION, patterns/base.yaml, patterns/full-compliance.yaml: Replaced
+  util-linux-ng with new upstream util-linux
 
-  * VERSION: Update Version
+  * ChangeLog: Removing fastinit from base and full-compliance package groups
 
-  * patterns/meego-core.xml: Remove qtcontacts-tracker from core
+  * VERSION, patterns/base.yaml, patterns/full-compliance.yaml: Removing
+  fastinit from base and full-compliance package groups:
 
-2011-06-19  Peter Zhu <peter.j.zhu@intel.com>
+2011-06-20  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
 
-  * ChangeLog: Update changelog
+  * ChangeLog: Removing sysklogd from base and MeeGo compliance pattern groups.
 
-  * VERSION: Update version
-
-  * patterns/meego-compliance.xml: Remove qtcontacts-tracker, fixing BMC#18678
-
-  * ChangeLog: Update changelog
-
-  * VERSION, patterns/meego-moorestown-support.xml: Use udev-rules-tablet-mrst
-  for tablet
-
-2011-06-17  Peter Zhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update Changelog
-
-  * VERSION: Update VERSION
-
-  * patterns/meego-tablet.xml: Add three syncevolution-service-X packages to
-  default tablet build
+  * VERSION, patterns/base.yaml, patterns/full-compliance.yaml: Removing
+  sysklogd from base and MeeGo compliance pattern groups.
 
 2011-06-17  Tracy Graydon <Tracy.Graydon@intel.com>
 
-  * ChangeLog: Changelog
-
-  * VERSION: Bump ver to 0.61.24
-
-  * patterns/meego-netbook-desktop.xml: Add usb-modeswitch and
-  usb-modeswitch-data to meego-netbook-desktop.xml. BMC#10127
-
-2011-06-17  Peter Zhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update changelog
-
-  * VERSION: update Version
-
-  * patterns/meego-tablet.xml: Add meegotouch-applauncherd-qdeclarativebooster
-  to tablet UX to fix BMC#19428
-
-  * ChangeLog: Update changelog
-
-  * VERSION: Upgrade Version
-
-  * patterns/meego-tablet.xml: Remove mtf-feedback
-
-2011-06-14  Tracy Graydon <Tracy.Graydon@intel.com>
-
-  * ChangeLog: Changelog: add mlite to meego-ivi-desltop.xml
-
-  * VERSION: Bump ver to 0.61.21
-
-  * patterns/meego-ivi-desktop.xml: Add mlite to meego-ivi-desktop.xml
-
-2011-06-10  Peter Zhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update changelog
-
-  * VERSION: Update Version
-
-  * patterns/meego-full-compliance.xml: Remove gdbm/libffi from full compliance
-
-  * patterns/meego-compliance.xml, patterns/meego-core.xml,
-  patterns/meego-full-compliance.xml, patterns/meego-tablet.xml: Add E-D-S
-  transition change
-
-2011-06-07  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
-
-  * ChangeLog: Removing all pulseaudio modules from Medfield Support group
-
-  * VERSION: Removing all pulseaudio modules from Medfield Support group
-
-  * patterns/meego-medfield-support.xml: Removing all pulseaudio modules from
-  Medfield Support group
-
-2011-06-03  Peter Zhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update changelog
-
-  * VERSION: Update Version
-
-  * patterns/meego-compliance.xml, patterns/meego-core.xml,
-  patterns/meego-full-compliance.xml: Add qtwebkit back to compliance
-
-2011-05-31  Peter Zhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update changelog
-
-  * VERSION: Upgrade version
-
-  * patterns/meego-pinetrail-support.xml: Add pinetrail support pattern
-
-2011-05-26  Peter Zhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update changelog
-
-  * VERSION, patterns/meego-moorestown-support.xml: Add jackdetect pa module
-  into mrst support
-
-  * ChangeLog: Update Changelog
-
-  * VERSION, patterns/meego-moorestown-support.xml, patterns/meego-tablet.xml:
-  More policy/setttings/modules update for tablet/mrst
-
-2011-05-26  PeterZhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update Changelog
-
-  * VERSION: Bump Version
-
-  * patterns/meego-moorestown-support.xml, patterns/meego-tablet.xml: Add
-  tablet specific policy and mrst specific PA modules/settings
-
-2011-05-25  Tracy Graydon <Tracy.Graydon@intel.com>
-
   * ChangeLog: changelog
 
-  * VERSION: Bump ver to 0.61.13
+  * VERSION: Bump the version to 0.73
 
-  * patterns/meego-tablet.xml: Add gst-plugins-bad-free-extras to tablet
-  patterns
+  * patterns/netbook.yaml: BMC#19097: Add usb-modeswitch and
+  usb-modeswitch-data to netbook.yaml
 
-2011-05-20  Tracy Graydon <Tracy.Graydon@intel.com>
+2011-06-13  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
 
-  * ChangeLog: Changelog
+  * ChangeLog: Removing meego-panel-devices from Netbook group
 
-  * VERSION, patterns/meego-ivi-desktop.xml: Add tumbler to
-  meego-ivi-desktop.xml to fix BMC#16930
+  * VERSION: Bumping version number
 
-2011-05-16  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
+  * patterns/netbook.yaml: Removing meego-panel-devices from Netbook group
 
-  * VERSION, patterns/meego-oaktrail-x.xml: Renamed pvr-bin-mrst and
-  psb-video-mrst in -oaktrail in meego-oaktrail-x pattern
+2011-06-06  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
 
-2011-05-14  PeterZhu <peter.j.zhu@intel.com>
+  * patterns/cedartrail-support.yaml: Adding Cedartrail Support group. This
+  time adding the file.
 
-  * patterns/meego-base-x.xml, patterns/meego-minimal-x.xml: Remove unnecessary
-  pkgs from base-x/minimal-x
+  * ChangeLog: Add Cedartrail Support group
 
-2011-05-13  PeterZhu <peter.j.zhu@intel.com>
+  * VERSION: Add Cedartrail Support group
 
-  * ChangeLog: Update changelog
-
-  * VERSION, patterns/meego-ivi.xml: Use a universal iwlwifi package to fix
-  BMC#17449
-
-  * ChangeLog: Update changelog
-
-  * VERSION, patterns/meego-ivi.xml: Add linux-firmware-iwlwifi-5000 to IVI
-
-2011-05-11  PeterZhu <peter.j.zhu@intel.com>
-
-  * ChangeLog: Update changelog
-
-  * VERSION: Bump version
-
-  * patterns/meego-handset-desktop.xml: Remove obsolete meegotouch-qt-style
-  (BMC#16894)
-
-  * ChangeLog: Update Changelog
-
-  * VERSION: Bump version
-
-  * patterns/meego-base.xml, patterns/meego-core.xml, patterns/meego-ivi.xml,
-  patterns/meego-medfield-support.xml, patterns/meego-moorestown-support.xml,
-  patterns/meego-netbook-x.xml, patterns/meego-netbook.xml,
-  patterns/meego-oaktrail-support.xml: Remove linux-firmwawre from core; Use
-  splitted per device linux-firmware subpackage for different
-  platforms/verticals
-
-2011-05-10  PeterZhu <peter.j.zhu@intel.com>
-
-  * patterns/meego-full-compliance.xml: Small fixes
-
-2011-05-09  Yan Yin <yan.yin@intel.com>
-
-  * ChangeLog: Changelog
-
-  * VERSION: Bump VERSION to 0.61.6
-
-  * patterns/meego-netbook-desktop.xml: add alsa-plugins-pulseaudio (BMC#
-  17104)
-
-2011-05-06  Tracy Graydon <Tracy.Graydon@intel.com>
+2011-05-26  Tracy Graydon <Tracy.Graydon@intel.com>
 
   * ChangeLog: ChangeLog
 
-  * VERSION, patterns/ivi-desktop.xml, patterns/meego-ivi-applications.xml,
-  patterns/meego-ivi-desktop.xml: Remove the ivi-desktop.xml pattern. Removed
-  meegotouch-bluetooth and meegtouch-datetime.
+  * VERSION: Bump ver to 0.70
+
+  * patterns/ivi-applications.yaml, patterns/ivi.yaml: Remove bluetooth-ivi for
+  the moment. Remove hfdialer which is pulling in bad packages like mce, ngfd.
+
+2011-05-19  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
+
+  * patterns/base.yaml: Updating Core base pattern: sreadahead is obsoleted by
+  systemd-sysv
+
+2011-05-16  Ulf Hofemeier <ulf.hofemeier@linux.intel.com>
+
+  * ChangeLog: Split up pvr-bin into -mrst and -oaktrail. Using -oaktrail for
+  Oaktrail Support pattern group.
+
+  * VERSION, patterns/oaktrail-support.yaml: Split up pvr-bin into -mrst and
+  -oaktrail. Using -oaktrail for Oaktrail Support pattern group.
+
+2011-05-15  PeterZhu <peter.j.zhu@intel.com>
+
+  * ChangeLog: Update Changelog
+
+  * VERSION: Bump
+
+  * patterns/base.yaml, patterns/common-user-interface.yaml,
+  patterns/compliance.yaml, patterns/core-compliance.yaml, patterns/ivi.yaml,
+  patterns/moorestown-x.yaml, patterns/netbook.yaml: Move
+  dbus-x11/Consolekit-x11 from common UI to netbook/ivi desktop Remove
+  xorg-x11-fonts-* from common UI Remove sysvinit from base Add PackageKit to
+  compliance Remove core-compliance, useless Remove moorstown-x, useless
+
+2011-05-12  Anas Nashif <nashif@linux.intel.com>
+
+  * VERSION, patterns/common-user-interface.yaml,
+  patterns/full-compliance.yaml: bump version
+
+  * patterns/common-user-interface.yaml, patterns/console-tools.yaml,
+  patterns/pinetrail-support.yaml: re-add 915 drivers
+
+  * scripts/merge-patterns.py: bump
+
+  * patterns/full-compliance.yaml, scripts/merge-patterns.py: bump
+
+  * patterns/base.yaml, patterns/common-user-interface.yaml,
+  patterns/full-compliance.yaml, patterns/ivi-platform-support.yaml,
+  patterns/medfield-support.yaml, patterns/moorestown-support.yaml,
+  patterns/nokia-n900-support.yaml, patterns/oaktrail-support.yaml,
+  patterns/pinetrail-support.yaml: bump
+
+  * VERSION: bump
+
+  * patterns/common-user-interface.yaml, patterns/middleware.yaml: add
+  middleware package
+
+  * patterns/base.yaml, patterns/console-tools.yaml,
+  patterns/full-compliance.yaml, patterns/handset.yaml,
+  patterns/middleware.yaml, patterns/netbook.yaml,
+  patterns/pinetrail-support.yaml, patterns/tablet.yaml: add middleware package
+
+  * VERSION: more fixes
+
+  * patterns/base.yaml, patterns/ivi-platform-support.yaml, patterns/ivi.yaml,
+  patterns/medfield-support.yaml, patterns/moorestown-support.yaml,
+  patterns/netbook.yaml, patterns/nokia-n900-support.yaml,
+  patterns/oaktrail-support.yaml: add linux-firmware to all hw support groups
+  for now
+
+  * patterns/oaktrail-support.yaml, patterns/pinetrail-support.yaml: add
+  installer to the hw support groups
+
+  * patterns/base.yaml, patterns/core.yaml, patterns/ivi.yaml,
+  patterns/netbook-applications.yaml, patterns/netbook.yaml,
+  patterns/pinetrail-support.yaml, scripts/cleanup-patterns.py: sort packages
+
+  * ChangeLog: bump version, changelog
+
+  * VERSION: bump version
+
+  * patterns/ivi.yaml: remove sample media from ivi
+
+2011-05-10  Anas Nashif <nashif@linux.intel.com>
+
+  * patterns/netbook-applications.yaml: rename banshee
+
+  * patterns/pinetrail-support.yaml: move acpid to correct platform
+
+  * patterns/ivi-platform-support.yaml, patterns/ivi.yaml,
+  patterns/pinetrail-support.xml, patterns/tablet.yaml: move acpid to correct
+  platform
+
+  * patterns/ivi-generic-hw-support.yaml, patterns/ivi-platform-support.yaml:
+  ivi support
+
+  * patterns/ivi-generic-hw-support.yaml, patterns/ivi.yaml,
+  patterns/netbook-applications.yaml, patterns/tablet.yaml: ivi support
+
+  * patterns/ivi-x.yaml: ivi support
+
+  * patterns/sample-and-demos.yaml, patterns/samples-and-demos.yaml: more
+  cleanup
+
+  * patterns/base.yaml, patterns/compliance.yaml,
+  patterns/handset-applications.yaml, patterns/tablet.yaml: more cleanup
+
+  * patterns/handset.yaml, patterns/sample-and-demos.yaml: remove onbsolete
+  meegotouch-qt-style (by  Joonas Tanskanen <joonas.tanskanen@sasken.com>)
+
+  * test/test-patterns.sh: support -c for cleaning repos
+
+  * test/test-patterns.sh: support combination, add test script
+
+  * patterns/core.yaml, scripts/merge-patterns.py, test/test-patterns.sh:
+  support combination, add test script
+
+2011-05-09  Yan Yin <yan.yin@intel.com>
+
+  * patterns/netbook.yaml: add alsa-plugins-pulseaudio (BMC# 17104)
+
+2011-05-06  Anas Nashif <nashif@linux.intel.com>
+
+  * patterns/handset-applications.yaml, patterns/handset-desktop.yaml,
+  patterns/handset.yaml: cleanup handset
+
+  * patterns/netbook-desktop-minimal.yaml, patterns/netbook.yaml: cleanup
+  netbook
+
+  * patterns/netbook-desktop.yaml, patterns/netbook.yaml: cleanup netbook
+
+  * patterns/base.yaml, patterns/medfield-support.yaml,
+  patterns/meego-touch-framework.yaml, patterns/moorestown-support.yaml,
+  patterns/oaktrail-support.yaml, patterns/wimax.yaml: sort packages
+
+  * patterns/handset-x.yaml, patterns/ivi-x.yaml, patterns/netbook-x.yaml,
+  patterns/pinetrail-support.xml, patterns/virtual-machine-support.yaml,
+  patterns/vmm-x.yaml: reshuffle more groups
+
+  * patterns/medfield-support.yaml, patterns/medfield-x.yaml: reshuffle
+  hardware groups
+
+  * patterns/moorestown-support.yaml, patterns/moorestown-x.yaml: oaktrail
+  moorestown
+
+  * patterns/console-tools.yaml, patterns/oaktrail-support.yaml,
+  patterns/oaktrail-x.yaml: oaktrail fixes
+
+  * patterns/core-base.yaml, patterns/printing.yaml: more cleanup: remove
+  base-core
+
+  * patterns/base-x.yaml, patterns/minimal-x.yaml: more cleanup: remove
+  base/minimal x groups
+
+  * patterns/base-hardware-support.yaml, patterns/base.yaml,
+  patterns/wimax.yaml: more cleanup
+
+  * patterns/netbook-desktop.yaml: remove install and lib* packages
+
+  * patterns/ivi-desktop.yaml: remove ivi-desktop
+
+  * patterns/meego-ivi-desktop.xml, patterns/meego-netbook-desktop.xml: remove
+  installer
+
+2011-05-05  Tracy Graydon <Tracy.Graydon@intel.com>
+
+  * ChangeLog: Changelog
+
+  * VERSION: Bump ver to 0.65
+
+  * patterns/ivi-desktop.xml, patterns/meego-ivi-desktop.xml: Delete
+  ivi-desktop.xml pattern; remove meegotouch-datetime from
+  meego-ivi-desktop.xml (pulls in dsme, etc).
 
 2011-05-05  PeterZhu <peter.j.zhu@intel.com>
 
-  * ChangeLog: Update ChangeLog
+  * ChangeLog: Update Changelog
 
-  * VERSION: Bump version to 0.61.4
+  * VERSION: Bump verstion to 0.64
 
   * patterns/meego-ivi-desktop.xml: IVI MeeGo UX desktop should use
   meego-ux-compositor
@@ -261,18 +309,20 @@
   * patterns/meego-core-base.xml, patterns/meego-core-compliance.xml: Remove
   core base/core compliance, we keep using meego-base and meego-compliance
 
-2011-05-02  Tracy Graydon <tracy.graydon@intel.com>
+2011-05-03  Anas Nashif <nashif@linux.intel.com>
 
-  * ChangeLog: ChangeLog
+  * scripts/merge-patterns.py: enforce lxml
 
-  * VERSION: Bump version
+  * patterns/meego-touch-framework.yaml: rename mtf package
 
-  * patterns/meego-ivi-desktop.xml: Add meego-ux-daemon,
-  meegotouch-mcompositor, etc., to patterns for 1.2
+2011-05-03  Anas Nashif <nashif@biruni.site>
 
-2011-05-03  Yan Yin <yan.yin@intel.com>
+  * patterns/meego-touch-framework.yaml, patterns/touch-framework.yaml: rename
+  mtf package
 
-  * VERSION: remove TV pattern file executable permissions
+2011-05-03  Anas Nashif <nashif@linux.intel.com>
+
+  * scripts/cleanup-patterns.py: add cleanup script
 
 2011-05-02  Tracy Graydon <tracy.graydon@intel.com>
 
@@ -284,9 +334,93 @@
 
 2011-05-02  Anas Nashif <nashif@linux.intel.com>
 
+  * Makefile, patterns/base-development.yaml,
+  patterns/base-double-byte-ime-support.yaml, patterns/base-x.yaml,
+  patterns/base.yaml, patterns/chinese-support.yaml, patterns/compliance.yaml,
+  patterns/core-base.yaml, patterns/core-compliance.yaml, patterns/core.yaml,
+  patterns/development-tools.yaml, patterns/games.yaml,
+  patterns/handset-applications.yaml, patterns/handset-desktop.yaml,
+  patterns/handset-x.yaml, patterns/handset.yaml,
+  patterns/ivi-applications.yaml, patterns/ivi-desktop.yaml,
+  patterns/ivi-x.yaml, patterns/ivi.yaml, patterns/medfield-support.yaml,
+  patterns/medfield-x.yaml, patterns/meego-touch-framework.yaml,
+  patterns/minimal-x.yaml, patterns/moorestown-support.yaml,
+  patterns/moorestown-x.yaml, patterns/netbook-desktop-minimal.yaml,
+  patterns/netbook-desktop.yaml, patterns/netbook-x.yaml,
+  patterns/netbook.yaml, patterns/nokia-n900-support.yaml,
+  patterns/oaktrail-x.yaml, patterns/sdk-base.yaml,
+  patterns/sdk-netbook-qemu.yaml, patterns/tablet-applications.yaml,
+  patterns/tablet.yaml, patterns/tv.yaml, patterns/vmm-x.yaml,
+  patterns/wimax.yaml: default architecture
+
+  * patterns/meego-touch-framework.yaml, patterns/touch-framework.yaml:
+  ->meego-touch-framework
+
   * VERSION: up version to 0.62
 
-  * VERSION: up version to 0.61.1
+  * Makefile, scripts/merge-patterns.py: move namespace to pattern from root
+  element
+
+  * convert-to-yaml.py, merge.py, scripts/convert-to-yaml.py,
+  scripts/merge-patterns.py: move scripts to scripts/
+
+  * patterns/ivi-support-ia32.yaml: remove arch specific group
+
+  * bak/comps-OBSOLETE.xml, bak/comps-cleanup.xslt, bak/comps.xsl,
+  bak/comps2pattern.sh, bak/patterns.xsl, bak/update_patterns.sh,
+  convert-to-yaml.py, merge.py, patterns/base-development.yaml,
+  patterns/base-double-byte-ime-support.xml,
+  patterns/base-double-byte-ime-support.yaml,
+  patterns/base-hardware-support.yaml, patterns/base-x.yaml,
+  patterns/base.yaml, patterns/chinese-support.xml,
+  patterns/chinese-support.yaml, patterns/compliance.yaml,
+  patterns/core-base.yaml, patterns/core-compliance.yaml, patterns/core.yaml,
+  patterns/development-tools.yaml, patterns/full-compliance.yaml,
+  patterns/games.yaml, patterns/handset-applications.yaml,
+  patterns/handset-desktop.yaml, patterns/handset-x.yaml,
+  patterns/handset.yaml, patterns/ivi-applications.yaml,
+  patterns/ivi-desktop.xml, patterns/ivi-desktop.yaml,
+  patterns/ivi-support-ia32.yaml, patterns/ivi-x.yaml, patterns/ivi.yaml,
+  patterns/japanese-support.xml, patterns/japanese-support.yaml,
+  patterns/korean-support.xml, patterns/korean-support.yaml,
+  patterns/medfield-support.yaml, patterns/medfield-x.yaml,
+  patterns/meego-base-development.xml,
+  patterns/meego-base-hardware-support.xml, patterns/meego-base-x.xml,
+  patterns/meego-base.xml, patterns/meego-compliance.xml,
+  patterns/meego-core-base.xml, patterns/meego-core-compliance.xml,
+  patterns/meego-core.xml, patterns/meego-development-tools.xml,
+  patterns/meego-full-compliance.xml, patterns/meego-games.xml,
+  patterns/meego-handset-applications.xml, patterns/meego-handset-desktop.xml,
+  patterns/meego-handset-x.xml, patterns/meego-handset.xml,
+  patterns/meego-ivi-applications.xml, patterns/meego-ivi-desktop.xml,
+  patterns/meego-ivi-x.xml, patterns/meego-ivi.xml,
+  patterns/meego-medfield-support.xml, patterns/meego-medfield-x.xml,
+  patterns/meego-minimal-x.xml, patterns/meego-moorestown-support.xml,
+  patterns/meego-moorestown-x.xml, patterns/meego-netbook-desktop-minimal.xml,
+  patterns/meego-netbook-desktop.xml, patterns/meego-netbook-x.xml,
+  patterns/meego-netbook.xml,
+  patterns/meego-nokia-n900-proprietary-support.xml,
+  patterns/meego-nokia-n900-support.xml, patterns/meego-oaktrail-support.xml,
+  patterns/meego-oaktrail-x.xml, patterns/meego-printing.xml,
+  patterns/meego-sdk-base.xml, patterns/meego-sdk-core-sysroot.xml,
+  patterns/meego-sdk-handset-qemu.xml, patterns/meego-sdk-handset-sysroot.xml,
+  patterns/meego-sdk-netbook-qemu.xml, patterns/meego-tablet-applications.xml,
+  patterns/meego-tablet.xml, patterns/meego-touch-framework.xml,
+  patterns/meego-tv-applications.xml, patterns/meego-tv.xml,
+  patterns/meego-vmm-x.xml, patterns/meego-wimax.xml, patterns/minimal-x.yaml,
+  patterns/moorestown-support.yaml, patterns/moorestown-x.yaml,
+  patterns/netbook-desktop-minimal.yaml, patterns/netbook-desktop.yaml,
+  patterns/netbook-x.yaml, patterns/netbook.yaml,
+  patterns/nokia-n900-proprietary-support.yaml,
+  patterns/nokia-n900-support.yaml, patterns/oaktrail-support.yaml,
+  patterns/oaktrail-x.yaml, patterns/printing.yaml, patterns/sdk-base.yaml,
+  patterns/sdk-core-sysroot.yaml, patterns/sdk-handset-qemu.yaml,
+  patterns/sdk-handset-sysroot.yaml, patterns/sdk-netbook-qemu.yaml,
+  patterns/tablet-applications.yaml, patterns/tablet.yaml,
+  patterns/touch-framework.yaml, patterns/tv-applications.yaml,
+  patterns/tv.yaml, patterns/vmm-x.yaml, patterns/wimax.yaml, projects/ALL,
+  projects/NON-OSS, projects/TRUNK, scripts/update.sh, update.sh: use yaml for
+  input files
 
 2011-04-30  PeterZhu <peter.j.zhu@intel.com>
 
