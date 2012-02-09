@@ -1,4 +1,4 @@
-Description: Basic System
+Description: Base System
 Name: base
 Packages:
 - bash
@@ -57,4 +57,4 @@ Packages:
 - bluetooth-frwk-agent
 - sonet
 - usbutils
-Summary: Tizen Base
+Summary: Base System
