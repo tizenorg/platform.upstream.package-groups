@@ -17,4 +17,5 @@ Packages:
 - openssh-server
 - gdb
 - dialog
+- python-xml
 Summary: Development Tools

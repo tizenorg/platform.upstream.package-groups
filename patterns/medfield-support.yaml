@@ -9,4 +9,6 @@ Packages:
 - device-configs-MFLD-PR3
 - system-plugin-ia-generic
 - ofono-server
+- xorg-drv-evdev
+- xorg-x11-drv-evdev-multitouch
 Summary: Medfield Support

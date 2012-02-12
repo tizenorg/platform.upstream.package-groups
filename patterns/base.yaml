@@ -52,7 +52,6 @@ Packages:
 - sysvinit-utils
 - rfkill
 - ofono
-- telephony-server
 - bluetooth-frwk
 - bluetooth-frwk-agent
 - sonet
