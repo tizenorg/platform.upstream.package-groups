@@ -1,6 +1,7 @@
 Description: Tizen UI
 Name: ui
 Packages:
+- sppc
 - my-account
 - default-fonts-sdk
 - e17

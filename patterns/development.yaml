@@ -18,4 +18,5 @@ Packages:
 - gdb
 - dialog
 - python-xml
+- sdbd
 Summary: Development Tools
