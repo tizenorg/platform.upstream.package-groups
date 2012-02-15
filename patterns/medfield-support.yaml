@@ -11,4 +11,5 @@ Packages:
 - ofono-server
 - xorg-drv-evdev
 - xorg-x11-drv-evdev-multitouch
+- watchdogd
 Summary: Medfield Support
