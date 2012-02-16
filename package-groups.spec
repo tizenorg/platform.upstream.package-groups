@@ -1,4 +1,4 @@
-Summary:	MeeGo Package Groups
+Summary:	Tizen Package Groups
 Name:		package-groups
 Version:	0.22
 Release:	1
