@@ -1,6 +1,7 @@
 Description: Base System
 Name: base
 Packages:
+- ca-certificates
 - bash
 - coreutils
 - rpm
