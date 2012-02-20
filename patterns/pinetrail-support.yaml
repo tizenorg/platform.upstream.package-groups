@@ -18,4 +18,6 @@ Packages:
 - linux-firmware
 - mmfw-sysconf-simulator
 - system-plugin-ia-generic
+- device-configs-Lenovo-S10-3t
+- device-configs-ExoPC
 Summary: Pinetrail Support
