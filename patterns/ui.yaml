@@ -35,7 +35,6 @@ Packages:
 - boot-animation
 - app-core-common
 - app-core-efl
-- app-core-debuginfo
 - ecore-tools
 - call
 - media-data
