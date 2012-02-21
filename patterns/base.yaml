@@ -32,7 +32,6 @@ Packages:
 - bluez
 - less
 - connman
-- syslinux
 - tizen-repos
 - insserv
 - mingetty

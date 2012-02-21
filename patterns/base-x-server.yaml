@@ -8,7 +8,5 @@ Packages:
 - xorg-utils
 - xorg-x11-xserver-utils
 - xorg-app-xinput
-- xorg-app-xinput
-- mesa-dri-swrast-driver
 - xterm
 Summary: Base X Server

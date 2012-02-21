@@ -6,7 +6,6 @@ License:	GPLv2
 Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-BuildArch:	noarch
 BuildRequires:  libxslt
 BuildRequires: python-yaml
 BuildRequires: python-lxml

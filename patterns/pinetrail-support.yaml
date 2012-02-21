@@ -16,6 +16,7 @@ Packages:
 - syslinux-extlinux
 - acpid
 - linux-firmware
+- syslinux
 - mmfw-sysconf-simulator
 - system-plugin-ia-generic
 - device-configs-Lenovo-S10-3t
