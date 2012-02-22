@@ -1,18 +1,19 @@
 Summary:	Tizen Package Groups
 Name:		package-groups
-Version:	0.22
+Version:	1
 Release:	1
 License:	GPLv2
 Group:		System/Base
-URL:		http://www.meego.com
+URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 BuildRequires:  libxslt
+BuildRequires: python-yaml
+BuildRequires: python-lxml
 
 
 %description
-MeeGo Package Groups
+Tizen Package Groups
 
 %prep
 %setup -q
@@ -21,13 +22,9 @@ MeeGo Package Groups
 make 
 
 %install
-rm -rf %{buildroot}
 %make_install
 
-%clean
-rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root,-)
 /usr/share/package-groups/*xml
 
