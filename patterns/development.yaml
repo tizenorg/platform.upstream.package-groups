@@ -19,5 +19,6 @@ Packages:
 - dialog
 - python-xml
 - sdbd
+- wget
 - app-core-debuginfo
 Summary: Development Tools
