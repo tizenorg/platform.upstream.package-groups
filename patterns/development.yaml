@@ -19,4 +19,5 @@ Packages:
 - dialog
 - python-xml
 - sdbd
+- app-core-debuginfo
 Summary: Development Tools
