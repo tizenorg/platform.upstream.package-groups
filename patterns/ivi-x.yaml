@@ -1,0 +1,13 @@
+Description: IVI X 
+Name: ivi-x
+Packages:
+- emgd-bin
+- xorg-x11-drv-fbdev 
+- xorg-x11-drv-intel  
+- xorg-x11-drv-keyboard
+- xorg-x11-drv-synaptics 
+- xorg-x11-server-misc-emulfb  
+- xorg-x11-drv-evdev
+- xorg-x11-drv-evdev-multitouch    
+- xorg-x11-drv-mtev
+Summary: IVI X 

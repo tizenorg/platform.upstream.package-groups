@@ -1,0 +1,10 @@
+Description: IVI Wayland for PineTrail
+Name: ivi-wayland-pc
+Packages:
+- mesa-dri-i915-driver
+- xkeyboard-config
+- wayland
+- weston
+- libqtcore4
+- ux-ivi
+Summary: IVI Wayland for Pinetrail 
