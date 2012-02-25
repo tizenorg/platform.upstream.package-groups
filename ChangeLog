@@ -1,3 +1,7 @@
+-------------------------------------------------------------------
+Sat Feb 25 01:52:48 UTC 2012 - tracy.graydon@intel.com
+- sync package-groups in git/gerrit to what is currently in Tizen:Main 
+
 2012-02-21  Anas Nashif <anas.nashif@intel.com>
 
   * patterns/ui.yaml: remove debuginfo from ui group

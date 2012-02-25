@@ -6,7 +6,7 @@ Packages:
 - xorg-drv-mtev
 - kernel-adaptation-bb
 - linux-firmware-mfld
-- device-configs-MFLD-PR3
+- device-configs-MFLD-BlackBay
 - system-plugin-ia-generic
 - ofono-server
 - xorg-drv-evdev

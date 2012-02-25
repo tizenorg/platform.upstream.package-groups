@@ -1,0 +1,10 @@
+Description: IVI Wayland 
+Name: ivi-wayland
+Packages:
+- emgd-bin
+- xkeyboard-config
+- wayland
+- weston
+- libqtcore4
+- ux-ivi
+Summary: IVI Wayland 

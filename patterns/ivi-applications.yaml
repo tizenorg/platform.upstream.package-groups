@@ -1,0 +1,5 @@
+Description: IVI Applications
+Name: ivi-applications
+Packages:
+- hfdialer
+Summary: IVI Applications

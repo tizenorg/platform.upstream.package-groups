@@ -1,6 +1,6 @@
 Summary:	Tizen Package Groups
 Name:		package-groups
-Version:	1
+Version:	3
 Release:	1
 License:	GPLv2
 Group:		System/Base
