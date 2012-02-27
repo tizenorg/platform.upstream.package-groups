@@ -1,4 +1,4 @@
-Description: IVI Base System
+Description: IVI Base 
 Name: ivi-base
 Packages:
 - ca-certificates
@@ -54,4 +54,4 @@ Packages:
 - bluetooth-frwk-agent
 - sonet
 - usbutils
-Summary: IVI Base System
+Summary: IVI Base 
