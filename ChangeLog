@@ -1,5 +1,9 @@
 2012-02-27  Tracy Graydon <tracy.graydon@intel.com>
 
+  * Makefile: Add annotate option to make tag in makefile
+
+  * ChangeLog: Changelog update
+
   * VERSION, packaging/package-groups.spec: Add IVI Base pattern
 
 2012-02-24  Tracy Graydon <tracy.graydon@intel.com>
