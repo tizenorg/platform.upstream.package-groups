@@ -1,6 +1,49 @@
--------------------------------------------------------------------
-Sat Feb 25 01:52:48 UTC 2012 - tracy.graydon@intel.com
-- sync package-groups in git/gerrit to what is currently in Tizen:Main 
+2012-02-27  Tracy Graydon <tracy.graydon@intel.com>
+
+  * VERSION, packaging/package-groups.spec: Add IVI Base pattern
+
+2012-02-24  Tracy Graydon <tracy.graydon@intel.com>
+
+  * VERSION: #$%@. Forgot to update the package-groups spec.
+
+  * VERSION: Bump ver to 5
+
+  * ChangeLog, VERSION, packaging/package-groups.spec,
+  patterns/development.yaml, patterns/ivi-applications.yaml,
+  patterns/ivi-support.yaml, patterns/ivi-wayland-pc.yaml,
+  patterns/ivi-wayland.yaml, patterns/ivi-x-pinetrail.yaml,
+  patterns/ivi-x.yaml, patterns/medfield-support.yaml: Sync package-groups with
+  version in Tizen:Main
+
+2012-02-23  Anas Nashif <anas.nashif@intel.com>
+
+  * packaging/package-groups.spec: up version
+
+  * VERSION: add ivi
+
+  * patterns/ivi-applications.yaml, patterns/ivi-support.yaml,
+  patterns/ivi-wayland-pc.yaml, patterns/ivi-wayland.yaml,
+  patterns/ivi-x-pinetrail.yaml, patterns/ivi-x.yaml,
+  patterns/medfield-support.yaml: add ivi
+
+2012-02-22  Anas Nashif <anas.nashif@intel.com>
+
+  * patterns/development.yaml: add wget
+
+2012-02-21  Anas Nashif <anas.nashif@intel.com>
+
+  * package-groups.spec, packaging/package-groups.spec,
+  patterns/base-x-server.yaml, patterns/base.yaml,
+  patterns/medfield-support.yaml, patterns/pinetrail-support.yaml: move
+  architecture specifc parts to right groups
+
+2012-02-22  Ulf <ulf.hofemeier@intel.com>
+
+  * patterns/development.yaml: Adding app-core-debuginfo to development group.
+
+2012-02-22  Anas Nashif <anas.nashif@intel.com>
+
+  * ChangeLog, VERSION, package-groups.spec: fixed spec and reset changelog
 
 2012-02-21  Anas Nashif <anas.nashif@intel.com>
 
