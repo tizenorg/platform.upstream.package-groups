@@ -1,5 +1,12 @@
 2012-02-27  Tracy Graydon <tracy.graydon@intel.com>
 
+  * VERSION, packaging/package-groups.spec, patterns/ivi-base.yaml: Fix name of
+  IVI base pattern
+
+  * VERSION, packaging/package-groups.spec: spec
+
+  * ChangeLog, VERSION, patterns/ivi-base.yaml: Holy crap. COOMIT ALREADY
+
   * Makefile: Add annotate option to make tag in makefile
 
   * ChangeLog: Changelog update
