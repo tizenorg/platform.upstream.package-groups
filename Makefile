@@ -24,7 +24,7 @@ install:
 	install -m 644 group.xml ${DESTDIR}/usr/share/package-groups
 
 tag:
-	git tag $(VERSION)
+	git tag -a $(VERSION) -m "$(VERSION)"
 	git push --tags
 
 changelog:
