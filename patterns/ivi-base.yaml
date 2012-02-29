@@ -54,4 +54,5 @@ Packages:
 - bluetooth-frwk-agent
 - sonet
 - usbutils
+- zypper 
 Summary: IVI Base 
