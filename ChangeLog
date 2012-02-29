@@ -1,4 +1,13 @@
+2012-02-28  Tracy Graydon <tracy.graydon@intel.com>
+
+  * VERSION, packaging/package-groups.spec, patterns/ivi-base.yaml: MORE IVI
+  changes
+
 2012-02-27  Tracy Graydon <tracy.graydon@intel.com>
+
+  * ChangeLog: Fix IVI Base pattern name
+
+  * ChangeLog: ChangeLog
 
   * VERSION, packaging/package-groups.spec, patterns/ivi-base.yaml: Fix name of
   IVI base pattern
