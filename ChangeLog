@@ -2,6 +2,13 @@
 
   * VERSION: ver
 
+  * patterns/ivi-desktop-auto.yaml, patterns/ivi-desktop-pc.yaml: remove
+  alsa-plugins-pulseaudio from IVI
+
+  * ChangeLog: Update the naming of xorg-x11-drv-evdev
+
+  * VERSION: ver
+
   * patterns/ivi-x-auto.yaml, patterns/ivi-x-pc.yaml,
   patterns/medfield-support.yaml, patterns/pinetrail-support.yaml: there is no
   xorg-x11-drv-evdev in Tizen:Main anymore
