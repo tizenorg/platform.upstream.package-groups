@@ -1,0 +1,13 @@
+Description: IVI Desktop PC
+Name: ivi-desktop-pc
+Packages:
+- pulseaudio
+- alsa-lib
+- alsa-plugins-pulseaudio
+- alsa-utils
+- gstreamer
+- gstreamer-vaapi
+- gst-plugins-bad-free
+- gst-plugins-farsight
+- bluetooth-qt
+Summary: IVI Desktop PC

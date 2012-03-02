@@ -1,8 +1,14 @@
 Description: IVI Base 
 Name: ivi-base
 Packages:
-- ca-certificates
 - bash
+- bluez
+- bzip2
+- binutils
+- cpio
+- connman
+- cert-svc
+- ca-certificates
 - coreutils
 - rpm
 - udev
@@ -19,35 +25,26 @@ Packages:
 - net-tools
 - psmisc
 - module-init-tools
-- cpio
 - gawk
 - sed
 - tar
 - gzip
 - grep
-- bzip2
-- binutils
-- alsa-utils
 - mtdev
-- bluez
 - less
-- connman
 - tizen-repos
-- insserv
 - mingetty
 - mkdevnodes
 - dlogutil
 - audio-session-manager
 - lsb
 - drm-service
-- cert-svc
 - bluez-gstreamer
 - sensor-framework
 - libss-client
 - ss-server
 - libsqlfs
 - tzdata-slp
-- sysvinit-utils
 - rfkill
 - ofono
 - bluetooth-frwk
@@ -55,4 +52,5 @@ Packages:
 - sonet
 - usbutils
 - zypper 
+- vim-enhanced
 Summary: IVI Base 

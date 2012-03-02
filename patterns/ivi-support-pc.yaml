@@ -1,0 +1,8 @@
+Description: IVI Support PC
+Name: ivi-support-pc
+Packages:
+- linux-firmware
+- ntp
+- systemd-sysv
+- systemd
+Summary: IVI Support PC

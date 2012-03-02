@@ -1,0 +1,8 @@
+Description: IVI Support Auto
+Name: ivi-support-auto
+Packages:
+- linux-firmware-crossville
+- ntp
+- systemd-sysv
+- systemd
+Summary: IVI Support Auto

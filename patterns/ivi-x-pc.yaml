@@ -1,5 +1,5 @@
-Description: IVI X for Pinetrail
-Name: ivi-x-pinetrail
+Description: IVI X PC
+Name: ivi-x-pc
 Packages:
 - mesa-dri-i915-driver
 - mesa-dri-i965-driver
@@ -11,4 +11,4 @@ Packages:
 - xorg-drv-evdev
 - xorg-x11-drv-evdev-multitouch
 - xorg-drv-mtev
-Summary: IVI X for Pinetrail
+Summary: IVI X PC

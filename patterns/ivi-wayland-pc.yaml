@@ -1,4 +1,4 @@
-Description: IVI Wayland for PineTrail
+Description: IVI Wayland PC
 Name: ivi-wayland-pc
 Packages:
 - mesa-dri-i915-driver
@@ -7,4 +7,4 @@ Packages:
 - weston
 - libqtcore4
 - ux-ivi
-Summary: IVI Wayland for Pinetrail 
+Summary: IVI Wayland PC 

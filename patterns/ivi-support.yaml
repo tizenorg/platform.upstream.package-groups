@@ -1,8 +1,0 @@
-Description: IVI Support
-Name: ivi-support
-Packages:
-- linux-firmware
-- ntp
-- systemd-sysv
-- systemd
-Summary: IVI Support

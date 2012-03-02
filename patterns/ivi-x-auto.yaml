@@ -1,5 +1,5 @@
-Description: IVI X 
-Name: ivi-x
+Description: IVI X Auto
+Name: ivi-x-auto
 Packages:
 - emgd-bin
 - xorg-x11-drv-fbdev 
@@ -10,4 +10,5 @@ Packages:
 - xorg-x11-drv-evdev
 - xorg-x11-drv-evdev-multitouch    
 - xorg-x11-drv-mtev
-Summary: IVI X 
+- pulseaudio-module-x11
+Summary: IVI X Auto
