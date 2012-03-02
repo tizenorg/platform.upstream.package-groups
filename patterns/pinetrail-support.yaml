@@ -21,7 +21,6 @@ Packages:
 - system-plugin-ia-generic
 - device-configs-Lenovo-S10-3t
 - device-configs-ExoPC
-- libXgesture
 - xorg-x11-drv-input-gesture
 - xorg-gestureproto
 - device-config-touch-eGalax
