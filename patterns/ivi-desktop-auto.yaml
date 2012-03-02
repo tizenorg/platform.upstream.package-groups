@@ -1,12 +1,5 @@
 Description: IVI Desktop Auto
 Name: ivi-desktop-auto
 Packages:
-- pulseaudio
-- gstreamer
-- gstreamer-vaapi
-- gst-plugins-bad-free
-- gst-plugins-farsight
 - bluetooth-qt
-- libasound-plugins-pulse
-- libasound-plugins-speex
 Summary: IVI Desktop Auto

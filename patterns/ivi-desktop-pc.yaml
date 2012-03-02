@@ -1,12 +1,5 @@
 Description: IVI Desktop PC
 Name: ivi-desktop-pc
 Packages:
-- pulseaudio
-- gstreamer
-- gstreamer-vaapi
-- gst-plugins-bad-free
-- gst-plugins-farsight
 - bluetooth-qt
-- libasound-plugins-pulse
-- libasound-plugins-speex
 Summary: IVI Desktop PC

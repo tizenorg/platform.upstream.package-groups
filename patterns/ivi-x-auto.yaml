@@ -7,8 +7,7 @@ Packages:
 - xorg-x11-drv-keyboard
 - xorg-x11-drv-synaptics 
 - xorg-x11-server-misc-emulfb  
-- xorg-x11-drv-evdev-ia
+- xorg-x11-drv-evdev
 - xorg-x11-drv-evdev-multitouch    
 - xorg-x11-drv-mtev
-- pulseaudio-module-x11
 Summary: IVI X Auto
