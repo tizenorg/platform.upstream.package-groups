@@ -2,9 +2,6 @@ Description: IVI Desktop PC
 Name: ivi-desktop-pc
 Packages:
 - pulseaudio
-- alsa-lib
-- alsa-plugins
-- alsa-utils
 - gstreamer
 - gstreamer-vaapi
 - gst-plugins-bad-free

@@ -2,9 +2,6 @@ Description: IVI Desktop Auto
 Name: ivi-desktop-auto
 Packages:
 - pulseaudio
-- alsa-lib
-- alsa-plugins
-- alsa-utils
 - gstreamer
 - gstreamer-vaapi
 - gst-plugins-bad-free
