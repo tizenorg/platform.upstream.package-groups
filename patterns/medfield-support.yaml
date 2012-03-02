@@ -9,7 +9,7 @@ Packages:
 - device-configs-MFLD-BlackBay
 - system-plugin-ia-generic
 - ofono-server
-- xorg-drv-evdev
+- xorg-drv-evdev-ia
 - xorg-x11-drv-evdev-multitouch
 - mesa-dri-swrast-driver
 - watchdogd
