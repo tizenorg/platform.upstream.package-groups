@@ -3,7 +3,7 @@ Name: ivi-desktop-pc
 Packages:
 - pulseaudio
 - alsa-lib
-- alsa-plugins-pulseaudio
+- alsa-plugins
 - alsa-utils
 - gstreamer
 - gstreamer-vaapi
