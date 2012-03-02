@@ -1,5 +1,12 @@
 2012-03-01  Tracy Graydon <tracy.graydon@intel.com>
 
+  * VERSION, packaging/package-groups.spec: v 0.12 dropped Ulf's latest change.
+  Snagging
+
+  * ChangeLog: amend to trick gerrit
+
+  * ChangeLog: changelog
+
   * VERSION, packaging/package-groups.spec, patterns/ivi-applications.yaml,
   patterns/ivi-base.yaml, patterns/ivi-desktop-auto.yaml,
   patterns/ivi-desktop-pc.yaml, patterns/ivi-support-auto.yaml,
@@ -10,6 +17,9 @@
   rearranging
 
 2012-03-01  Ulf <ulf.hofemeier@intel.com>
+
+  * patterns/pinetrail-support.yaml: Removing libXgesture. It's not in
+  Tizen:Main yet.
 
   * patterns/pinetrail-support.yaml: Adding packages to enable ExoPC
   touchscreen.
