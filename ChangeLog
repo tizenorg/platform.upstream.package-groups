@@ -2,6 +2,16 @@
 
   * VERSION: ver
 
+  * patterns/ivi-desktop-auto.yaml, patterns/ivi-desktop-pc.yaml: ditch the
+  broken alsa stuff
+
+  * patterns/ivi-desktop-auto.yaml, patterns/ivi-desktop-pc.yaml: add libsound
+  for IVI
+
+  * ChangeLog: changelog
+
+  * VERSION: ver
+
   * patterns/ivi-desktop-auto.yaml, patterns/ivi-desktop-pc.yaml: remove
   alsa-plugins-pulseaudio from IVI
 
