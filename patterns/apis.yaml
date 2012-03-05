@@ -26,6 +26,7 @@ Packages:
 - capi-system-haptic
 - capi-system-info
 - capi-system-power
+- capi-system-runtime-info
 - capi-system-sensor
 - capi-telephony-call
 - capi-telephony-network-info

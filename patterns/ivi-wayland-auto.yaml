@@ -2,9 +2,9 @@ Description: IVI Wayland Auto
 Name: ivi-wayland-auto
 Packages:
 - emgd-bin
-- xkeyboard-config
-- wayland
-- weston
 - libqtcore4
 - ux-ivi
+- wayland
+- weston
+- xkeyboard-config
 Summary: IVI Wayland Auto

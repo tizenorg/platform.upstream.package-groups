@@ -1,12 +1,12 @@
 Description: Base X Server
 Name: x-server
 Packages:
-- xorg-x11-server
 - xkeyboard-config
 - xorg-app-xinit
-- xorg-x11-xkb-utils
-- xorg-utils
-- xorg-x11-xserver-utils
 - xorg-app-xinput
+- xorg-utils
+- xorg-x11-server
+- xorg-x11-xkb-utils
+- xorg-x11-xserver-utils
 - xterm
 Summary: Base X Server

@@ -1,7 +1,7 @@
 Description: IVI Applications
 Name: ivi-applications
 Packages:
+- hfdialer
 - navit
 - navit-maps
-- hfdialer
 Summary: IVI Applications

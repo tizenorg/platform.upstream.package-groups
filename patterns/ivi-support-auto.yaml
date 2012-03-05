@@ -3,6 +3,6 @@ Name: ivi-support-auto
 Packages:
 - linux-firmware-crossville
 - ntp
-- systemd-sysv
 - systemd
+- systemd-sysv
 Summary: IVI Support Auto

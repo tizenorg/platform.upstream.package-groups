@@ -1,27 +1,27 @@
 Description: Pinetrail Support
 Name: pinetrail-support
 Packages:
+- acpid
+- device-config-touch-eGalax
+- device-configs-ExoPC
+- device-configs-Lenovo-S10-3t
+- kernel-adaptation-pc
+- linux-firmware
 - mesa-dri-i915-driver
 - mesa-dri-i965-driver
 - mesa-dri-swrast-driver
+- mmfw-sysconf-simulator
+- syslinux
+- syslinux-extlinux
+- system-plugin-ia-generic
+- xorg-drv-evdev
+- xorg-drv-mtev
+- xorg-gestureproto
+- xorg-x11-drv-evdev-multitouch
 - xorg-x11-drv-fbdev
+- xorg-x11-drv-input-gesture
 - xorg-x11-drv-intel
 - xorg-x11-drv-keyboard
 - xorg-x11-drv-synaptics
 - xorg-x11-server-misc-emulfb
-- xorg-drv-evdev
-- xorg-x11-drv-evdev-multitouch
-- xorg-drv-mtev
-- kernel-adaptation-pc
-- syslinux-extlinux
-- acpid
-- linux-firmware
-- syslinux
-- mmfw-sysconf-simulator
-- system-plugin-ia-generic
-- device-configs-Lenovo-S10-3t
-- device-configs-ExoPC
-- xorg-x11-drv-input-gesture
-- xorg-gestureproto
-- device-config-touch-eGalax
 Summary: Pinetrail Support

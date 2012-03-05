@@ -3,6 +3,7 @@ Name: development
 Packages:
 - app-core-debuginfo
 - bootchart
+- connman-test
 - dbus-python
 - dialog
 - edje-tools
