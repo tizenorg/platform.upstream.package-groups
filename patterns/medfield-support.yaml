@@ -1,16 +1,16 @@
 Description: Medfield Support
 Name: medfield-support
 Packages:
-- xorg-x11-drv-fbdev
-- xorg-x11-server-misc-emulfb
-- xorg-drv-mtev
+- device-configs-MFLD-BlackBay
 - kernel-adaptation-bb
 - linux-firmware-mfld
-- device-configs-MFLD-BlackBay
-- system-plugin-ia-generic
-- ofono-server
-- xorg-drv-evdev
-- xorg-x11-drv-evdev-multitouch
 - mesa-dri-swrast-driver
+- ofono-server
+- system-plugin-ia-generic
 - watchdogd
+- xorg-drv-evdev
+- xorg-drv-mtev
+- xorg-x11-drv-evdev-multitouch
+- xorg-x11-drv-fbdev
+- xorg-x11-server-misc-emulfb
 Summary: Medfield Support
