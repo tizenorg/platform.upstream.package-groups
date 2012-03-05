@@ -1,4 +1,22 @@
+2012-03-05  Tracy Graydon <tracy.graydon@intel.com>
+
+  * VERSION: Version bump
+
+  * patterns/ivi-x-auto.yaml, patterns/ivi-x-pc.yaml: Try to fix the
+  xorg-x11-drv-evdev thing
+
 2012-03-01  Tracy Graydon <tracy.graydon@intel.com>
+
+  * VERSION: trick gerrit
+
+  * VERSION: I give up for the night
+
+  * patterns/ivi-base.yaml, patterns/ivi-desktop-auto.yaml,
+  patterns/ivi-desktop-pc.yaml, patterns/ivi-x-auto.yaml,
+  patterns/ivi-x-pc.yaml, patterns/medfield-support.yaml,
+  patterns/pinetrail-support.yaml: Undo the IVI changes
+
+  * ChangeLog: log
 
   * VERSION: ver
 
