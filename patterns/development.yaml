@@ -1,24 +1,21 @@
 Description: Development Tools
 Name: development
 Packages:
-- zypper
-- strace
-- openssh-clients
-- ofono-test
-- dbus-python
-- pygobject2
+- app-core-debuginfo
 - bootchart
+- dbus-python
+- dialog
 - edje-tools
 - eet-tools
-- bluetooth-frwk-test
-- wrt-engine-test
-- geoclue-examples
 - elementary-tools
-- openssh-server
 - gdb
-- dialog
+- ofono-test
+- openssh-clients
+- openssh-server
+- pygobject2
 - python-xml
 - sdbd
+- strace
 - wget
-- app-core-debuginfo
+- zypper
 Summary: Development Tools

@@ -6,12 +6,12 @@ mkdir -p $TMPDIR
 CMD="zypper -v --no-gpg-checks --non-interactive --gpg-auto-import-keys -R $TMPDIR  "
 
 function setup_repos() {
-    test -d "download.meego.com"  || (
-        wget -m  --no-parent    http://download.meego.com/snapshots/latest/repos/non-oss/ia32/packages/repodata/
-        wget -m  --no-parent    http://download.meego.com/snapshots/latest/repos/oss/ia32/packages/repodata/
+    test -d "download.tz.otcshare.org"  || (
+        wget -m  --no-parent    https://download.tz.otcshare.org/live/Tizen:/Base/standard/repodata
+        wget -m  --no-parent    https://download.tz.otcshare.org/live/Tizen:/Main/standard/repodata
     )
-    $CMD ar file://$PWD/download.meego.com/snapshots/latest/repos/oss/ia32/packages/ oss
-    $CMD ar file://$PWD/download.meego.com/snapshots/latest/repos/non-oss/ia32/packages/ non-oss
+    $CMD ar file://$PWD/download.tz.otcshare.org/live/Tizen:/Main/standard/ staging
+    $CMD ar file://$PWD/download.tz.otcshare.org/live/Tizen:/Base/standard/ base
 }
 function show()
 {
@@ -55,11 +55,11 @@ fi
 
 
 if [ -n "$CLEAN" ]; then
-   rm -rf download.meego.com
+   rm -rf download.tz.otcshare.org
 fi 
 
 if [ -n "$NEW_PATTERN_FILE" ]; then
-    test -f $NEW_PATTERN_FILE && modifyrepo $NEW_PATTERN_FILE download.meego.com/snapshots/latest/repos/oss/ia32/packages/repodata/
+    test -f $NEW_PATTERN_FILE && modifyrepo $NEW_PATTERN_FILE download.tz.otcshare.org/live/Tizen:/Main/standard
 fi
 if [ -n "$SHOW_PATTERNS" ]; then
     show
