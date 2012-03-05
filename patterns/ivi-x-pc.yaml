@@ -9,6 +9,6 @@ Packages:
 - xorg-x11-drv-synaptics
 - xorg-x11-server-misc-emulfb
 - xorg-drv-evdev
-- xorg-x11-drv-evdev-multitouch
+- xorg-x11-drv-evdev-ia32
 - xorg-drv-mtev
 Summary: IVI X PC
