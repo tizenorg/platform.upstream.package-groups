@@ -7,8 +7,8 @@ CMD="zypper -v --no-gpg-checks --non-interactive --gpg-auto-import-keys -R $TMPD
 
 function setup_repos() {
     test -d "download.tz.otcshare.org"  || (
-        wget -m  --no-parent    https://download.tz.otcshare.org/live/Tizen:/Base/standard/repodata
-        wget -m  --no-parent    https://download.tz.otcshare.org/live/Tizen:/Main/standard/repodata
+        wget -m  -I "live/Tizen:/Base/standard/repodata" --no-parent    https://download.tz.otcshare.org/live/Tizen:/Base/standard/repodata
+        wget -m  -I "live/Tizen:/Main/standard/repodata" --no-parent    https://download.tz.otcshare.org/live/Tizen:/Main/standard/repodata
     )
     $CMD ar file://$PWD/download.tz.otcshare.org/live/Tizen:/Main/standard/ staging
     $CMD ar file://$PWD/download.tz.otcshare.org/live/Tizen:/Base/standard/ base
@@ -59,7 +59,8 @@ if [ -n "$CLEAN" ]; then
 fi 
 
 if [ -n "$NEW_PATTERN_FILE" ]; then
-    test -f $NEW_PATTERN_FILE && modifyrepo $NEW_PATTERN_FILE download.tz.otcshare.org/live/Tizen:/Main/standard
+    echo "Modifying repos with new pattern $NEW_PATTERN_FILE"
+    test -f $NEW_PATTERN_FILE && modifyrepo $NEW_PATTERN_FILE download.tz.otcshare.org/live/Tizen:/Main/standard/repodata
 fi
 if [ -n "$SHOW_PATTERNS" ]; then
     show

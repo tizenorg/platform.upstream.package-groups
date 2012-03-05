@@ -49,7 +49,7 @@ Packages:
 - libug-gallery-efl
 - libug-setting-theme-efl
 - libug-worldclock-efl
-- media-data
+- media-data-sdk
 - media-thumbnail-server
 - memo
 - menu-daemon
