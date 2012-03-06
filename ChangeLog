@@ -1,5 +1,11 @@
 2012-03-05  Tracy Graydon <tracy.graydon@intel.com>
 
+  * VERSION, patterns/ivi-x-auto.yaml, patterns/ivi-x-pc.yaml: version
+
+  * ChangeLog: Lie to gerrit to push changes through
+
+  * ChangeLog: log update
+
   * VERSION: Version bump
 
   * patterns/ivi-x-auto.yaml, patterns/ivi-x-pc.yaml: Try to fix the
