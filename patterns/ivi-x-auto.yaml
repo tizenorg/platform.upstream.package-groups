@@ -7,6 +7,6 @@ Packages:
 - xorg-x11-drv-keyboard
 - xorg-x11-drv-synaptics 
 - xorg-x11-server-misc-emulfb  
-- xorg-x11-drv-evdev-ia 
-- xorg-x11-drv-mtev
+- xorg-drv-evdev 
+- xorg-drv-mtev
 Summary: IVI X Auto
