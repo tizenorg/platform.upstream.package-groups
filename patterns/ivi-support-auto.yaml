@@ -5,4 +5,5 @@ Packages:
 - ntp
 - systemd
 - systemd-sysv
+- pulseaudio-systemd
 Summary: IVI Support Auto
