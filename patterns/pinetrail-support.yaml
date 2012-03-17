@@ -11,6 +11,7 @@ Packages:
 - mesa-dri-i965-driver
 - mesa-dri-swrast-driver
 - mmfw-sysconf-simulator
+- mesa-libGL
 - syslinux
 - syslinux-extlinux
 - system-plugin-ia-generic
