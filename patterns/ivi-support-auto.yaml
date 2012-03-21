@@ -6,4 +6,5 @@ Packages:
 - systemd
 - systemd-sysv
 - pulseaudio-systemd
+- mmfw-sysconf-simulator
 Summary: IVI Support Auto
