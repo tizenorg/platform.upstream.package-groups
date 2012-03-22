@@ -10,4 +10,6 @@ Packages:
 - xorg-x11-drv-keyboard
 - xorg-x11-drv-synaptics
 - xorg-x11-server-misc-emulfb
+- libqtcore4-xlib
+- ux-ivi-xlib
 Summary: IVI X PC

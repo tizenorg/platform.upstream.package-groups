@@ -1,9 +1,9 @@
 Description: IVI Wayland PC
 Name: ivi-wayland-pc
 Packages:
-- libqtcore4
+- libqtcore4-wayland
 - mesa-dri-i915-driver
-- ux-ivi
+- ux-ivi-wayland
 - wayland
 - weston
 - xkeyboard-config
