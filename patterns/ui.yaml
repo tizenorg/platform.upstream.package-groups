@@ -74,6 +74,8 @@ Packages:
 - msg-service-tools
 - music-player
 - my-account
+- neard
+- neard-test
 - nfc-plugin-emul
 - obexd
 - org.tizen.app-info-sample

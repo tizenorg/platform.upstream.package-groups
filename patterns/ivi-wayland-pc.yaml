@@ -7,5 +7,9 @@ Packages:
 - wayland
 - weston
 - xkeyboard-config
+- bluetooth-qt-wayland
+- navit-wayland
+- navit-maps
+- hfdialer-wayland
+- ivi-config-wayland
 Summary: IVI Wayland PC
-

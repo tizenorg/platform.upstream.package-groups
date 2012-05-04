@@ -1,6 +1,14 @@
 Description: IVI X PC
 Name: ivi-x-pc
 Packages:
+- xkeyboard-config
+- xorg-app-xinit
+- xorg-app-xinput
+- xorg-utils
+- xorg-x11-server
+- xorg-x11-xkb-utils
+- xorg-x11-xserver-utils
+- xterm
 - mesa-dri-i915-driver
 - mesa-dri-i965-driver
 - xorg-drv-evdev
@@ -10,6 +18,18 @@ Packages:
 - xorg-x11-drv-keyboard
 - xorg-x11-drv-synaptics
 - xorg-x11-server-misc-emulfb
+- device-config-touch-Hanvon
+- device-config-touch-ILI
+- device-config-touch-cando
+- device-config-touch-eGalax
+- device-config-touch-mxt224
+- device-config-touch-sitronix
 - libqtcore4-xlib
 - ux-ivi-xlib
+- bluetooth-qt-xlib
+- navit-xlib
+- navit-maps
+- hfdialer-xlib
+- uxlaunch
+- ivi-config-xlib
 Summary: IVI X PC
