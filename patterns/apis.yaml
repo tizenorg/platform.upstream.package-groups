@@ -16,8 +16,6 @@ Packages:
 - capi-media-sound-manager
 - capi-media-tone-player
 - capi-messaging-email
-- capi-messaging-mms
-- capi-messaging-sms
 - capi-network-connection
 - capi-social-calendar
 - capi-social-call-log
@@ -32,6 +30,4 @@ Packages:
 - capi-telephony-network-info
 - capi-telephony-sim
 - capi-ui-efl-util
-- capi-uix-feedback
-- capi-uix-tts
 Summary: Tizen APIs

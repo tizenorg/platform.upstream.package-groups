@@ -1,11 +1,8 @@
 Description: IVI Base
 Name: ivi-base
 Packages:
-- audio-session-manager
 - bash
 - binutils
-- bluetooth-frwk
-- bluetooth-frwk-agent
 - bluez
 - bzip2
 - ca-certificates
@@ -14,7 +11,6 @@ Packages:
 - coreutils
 - cpio
 - dlogutil
-- drm-service
 - e2fsprogs
 - filesystem
 - gawk
@@ -22,7 +18,6 @@ Packages:
 - gzip
 - less
 - libsqlfs
-- libss-client
 - login
 - lsb
 - mingetty
@@ -31,6 +26,9 @@ Packages:
 - mtdev
 - net-tools
 - ofono
+- pulseaudio-systemd
+- pulseaudio-module-bluetooth
+- pulseaudio-utils
 - passwd
 - prelink
 - procps
@@ -41,15 +39,15 @@ Packages:
 - sed
 - sensor-framework
 - setup
-- sonet
-- ss-server
 - tar
 - tizen-release
-- tizen-repos
 - tzdata-slp
 - udev
 - usbutils
 - util-linux-ng
 - vim-enhanced
 - zypper
+- openssl
+- obexd
+- soundcard-ivi
 Summary: IVI Base

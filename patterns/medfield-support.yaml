@@ -9,9 +9,10 @@ Packages:
 - system-plugin-ia-generic
 - uim
 - watchdogd
-- xorg-drv-evdev
+- xorg-x11-drv-evdev
 - xorg-drv-mtev
 - xorg-x11-drv-evdev-multitouch
 - xorg-x11-drv-fbdev
 - xorg-x11-server-misc-emulfb
+- slp_devman_plugin_mfld
 Summary: Medfield Support

@@ -1,7 +1,6 @@
 Description: Development Tools
 Name: development
 Packages:
-- app-core-debuginfo
 - bootchart
 - connman-test
 - dbus-python
@@ -19,10 +18,4 @@ Packages:
 - strace
 - wget
 - zypper
-- evas-debuginfo
-- elementary-debuginfo
-- app-core-debuginfo
-- browser-debuginfo
-- menu-screen-debuginfo
-- e17-debuginfo
 Summary: Development Tools

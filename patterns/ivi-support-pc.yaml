@@ -5,6 +5,6 @@ Packages:
 - ntp
 - systemd
 - systemd-sysv
-- pulseaudio-systemd
 - mmfw-sysconf-simulator
+- ivi-repos-pc
 Summary: IVI Support PC

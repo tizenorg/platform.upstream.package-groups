@@ -8,7 +8,6 @@ Packages:
 - bluetooth-frwk
 - bluetooth-frwk-agent
 - bluez
-- bluez-gstreamer
 - bzip2
 - ca-certificates
 - cert-svc
@@ -44,13 +43,12 @@ Packages:
 - sed
 - sensor-framework
 - setup
-- sonet
+- net-config
 - ss-server
 - sysvinit
 - sysvinit-utils
 - tar
 - tizen-release
-- tizen-repos
 - tzdata-slp
 - udev
 - usbutils
