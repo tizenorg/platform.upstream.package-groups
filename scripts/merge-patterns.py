@@ -8,7 +8,7 @@ from lxml import etree
 
 
 
-def create_patterns(arch='i586', split=False, patterns_dir='patterns'):
+def create_patterns(arch='i586', split=False, patterns_dir='patterns', output="."):
 
     rpm_ns="http://linux.duke.edu/metadata/rpm"
     pattern_ns="http://novell.com/package/metadata/suse/pattern"
@@ -71,7 +71,7 @@ def create_patterns(arch='i586', split=False, patterns_dir='patterns'):
     if not split:
         xmlroot.set('count', "%d" %count)
         tree = etree.ElementTree(xmlroot)
-        tree.write("patterns.xml")
+        tree.write("%s/patterns.xml" %(output))
 
 
 if __name__ == '__main__':
@@ -81,9 +81,13 @@ if __name__ == '__main__':
                     help="architecture")
     parser.add_option("-s", "--split", action="store_true", dest="split", default=False,
                     help="split patterns into single files")
+    parser.add_option("-p", "--pattern-dir", type="string", dest="patterns", default="patterns",
+                    help="Directory where patterns reside.")
+    parser.add_option("-o", "--output-dir", type="string", dest="output", default=".",
+                    help="Directory where to put patterns file.")
         
     (options, args) = parser.parse_args()
 
     if options.arch and options.arch in ['i586', 'arm']:
-        create_patterns(arch=options.arch, split=options.split)
+        create_patterns(arch=options.arch, split=options.split, patterns_dir=options.patterns, output=options.output)
 
