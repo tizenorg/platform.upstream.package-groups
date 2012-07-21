@@ -6,9 +6,17 @@ License:	GPLv2
 Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-BuildRequires:  libxslt
-BuildRequires: python-yaml
-BuildRequires: python-lxml
+
+
+%package tools
+Summary:    Package Group Tools
+Group:		System/Base
+Requires:  libxslt
+Requires: python-yaml
+Requires: python-lxml
+
+%description tools
+Tools for managing package groups and patterns.
 
 
 %description
@@ -25,5 +33,9 @@ make
 
 
 %files
-/usr/share/package-groups/*xml
+/usr/share/package-groups/patterns/*.yaml
 
+
+%files tools
+/usr/bin/merge-patterns
+/usr/share/package-groups/style-sheets/*.xsl
