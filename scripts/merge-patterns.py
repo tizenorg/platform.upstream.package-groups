@@ -77,8 +77,7 @@ def create_patterns(arch='i586', split=False, patterns_dir='patterns', output=".
 if __name__ == '__main__':
     parser = optparse.OptionParser()
 
-    parser.add_option("-a", "--arch", type="string", dest="arch",
-                    help="architecture")
+    parser.add_option("-a", "--arch", type="string", dest="arch", default="i586", help="architecture")
     parser.add_option("-s", "--split", action="store_true", dest="split", default=False,
                     help="split patterns into single files")
     parser.add_option("-p", "--pattern-dir", type="string", dest="patterns", default="patterns",
@@ -90,4 +89,6 @@ if __name__ == '__main__':
 
     if options.arch and options.arch in ['i586', 'arm']:
         create_patterns(arch=options.arch, split=options.split, patterns_dir=options.patterns, output=options.output)
-
+    else:
+        sys.stderr.write("Unsupported architecture\n")
+        sys.exit(1)
