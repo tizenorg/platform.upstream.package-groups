@@ -11,20 +11,15 @@ else
         TAG = "HEAD"
 endif
 
-all: 
-	python scripts/merge-patterns.py -a ${ARCH}
-	xsltproc xsl/comps.xsl patterns.xml > group.xml
-
-meta: 
-	python scripts/merge-patterns.py -a ${ARCH} -s
+all:
 
 install:
 	install -d ${DESTDIR}/usr/bin
 	install -m 755 scripts/merge-patterns.py ${DESTDIR}/usr/bin/merge-patterns
 	install -d ${DESTDIR}/usr/share/package-groups
 	install -d ${DESTDIR}/usr/share/package-groups/stylesheets
-	install -m 644 patterns.xml ${DESTDIR}/usr/share/package-groups
-	install -m 644 group.xml ${DESTDIR}/usr/share/package-groups
+	install -d ${DESTDIR}/usr/share/package-groups/patterns
+	install -m 644 patterns/*yaml ${DESTDIR}/usr/share/package-groups/patterns
 	install -m 644 xsl/comps.xsl ${DESTDIR}/usr/share/package-groups/stylesheets
 
 tag:
