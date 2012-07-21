@@ -38,4 +38,4 @@ make
 
 %files tools
 /usr/bin/merge-patterns
-/usr/share/package-groups/style-sheets/*.xsl
+/usr/share/package-groups/stylesheets/*.xsl
