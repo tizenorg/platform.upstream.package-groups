@@ -6,8 +6,6 @@ import optparse
 from lxml import etree
 
 
-
-
 def create_patterns(arch='i586', split=False, patterns_dir='patterns', output="."):
 
     rpm_ns="http://linux.duke.edu/metadata/rpm"
@@ -23,7 +21,6 @@ def create_patterns(arch='i586', split=False, patterns_dir='patterns', output=".
     for f in os.listdir(patterns_dir):
         if not f.endswith('.yaml'):
             continue
-        print "Working on %s" %f
         count = count + 1
         stream = file("%s/%s" %(patterns_dir,f), 'r')
         y = yaml.load(stream)
