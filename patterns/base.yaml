@@ -25,7 +25,6 @@ Packages:
 - less
 - libsqlfs
 - libss-client
-- login
 - lsb
 - mingetty
 - mkdevnodes
@@ -33,10 +32,10 @@ Packages:
 - mtdev
 - net-tools
 - ofono
-- passwd
 - prelink
 - procps
 - psmisc
+- pwdutils
 - readline
 - rfkill
 - rpm
@@ -45,12 +44,12 @@ Packages:
 - setup
 - net-config
 - ss-server
-- sysvinit
-- sysvinit-utils
 - tar
 - tizen-release
 - tzdata-slp
 - udev
 - usbutils
-- util-linux-ng
+- util-linux
+- systemd
+- systemd-sysv
 Summary: Base System

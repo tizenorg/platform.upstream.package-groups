@@ -1,6 +1,11 @@
 Description: Tizen UI
 Name: ui
 Packages:
+- drm-service
+- ss-server
+- libss-client
+- tizen-mobile-session
+- xorg-launch-helper 
 - app-core-common
 - app-core-efl
 - app-svc
@@ -9,13 +14,15 @@ Packages:
 - boot-animation
 - org.tizen.browser
 - org.tizen.bt-syspopup
-- calculator
+- org.tizen.calculator
 - org.tizen.call
 - org.tizen.message
 - call-setting
 - org.tizen.ciss
 - org.tizen.clock
 - org.tizen.contacts
+- org.tizen.gallery
+- org.tizen.draglock
 - default-fonts-sdk
 - e17
 - e17-data
@@ -25,18 +32,17 @@ Packages:
 - ecore-tools
 - org.tizen.efl-calendar
 - efl-theme-grey-hd
-- efl-theme-tizen-black-hd
-- efl-theme-tizen-hd
+- efl-theme-tizen
 - elm-misc
 - emotion
 - emotion-gstreamer
-- org.tizen.gallery
 - gps-manager
 - gst-ffmpeg
 - gst-plugins-bad
 - gst-plugins-ext0.10
 - gst-plugins-good
 - gst-plugins-ugly
+- libmm-imgp-gstcs
 - gstreamer-tools
 - org.tizen.image-viewer
 - org.tizen.indicator
@@ -57,7 +63,7 @@ Packages:
 - libug-setting-theme-efl
 - libug-worldclock-efl
 - location-gps-manager
-- media-data-sdk
+- media-data
 - media-thumbnail-server
 - org.tizen.memo
 - menu-daemon
@@ -67,8 +73,6 @@ Packages:
 - msg-service-tools
 - org.tizen.music-player
 - libaccounts-svc
-- neard
-- neard-test
 - nfc-plugin-emul
 - obexd
 - org.tizen.download-provider
@@ -78,7 +82,7 @@ Packages:
 - org.tizen.wifi-direct-popup
 - org.tizen.phone-lock
 - org.tizen.phone
-- power-manager-bin
+- power-manager
 - pulseaudio-module-bluetooth
 - pulseaudio-utils
 - org.tizen.pwlock
@@ -111,7 +115,6 @@ Packages:
 - ug-setting-manage-applications-efl
 - usb-setting
 - org.tizen.video-player
-- vim-enhanced
 - org.tizen.volume
 - wifi-efl-ug
 - wrt
@@ -121,4 +124,5 @@ Packages:
 - wrt-installer
 - xmlsec1
 - xmlsec1-openssl
+- org.tizen.camera-sample
 Summary: Tizen UI

@@ -1,6 +1,7 @@
 Description: Development Tools
 Name: development
 Packages:
+- vim-enhanced
 - bootchart
 - connman-test
 - dbus-python
@@ -9,13 +10,15 @@ Packages:
 - eet-tools
 - elementary-tools
 - gdb
+- neard-test
 - ofono-test
 - openssh-clients
 - openssh-server
-- pygobject2
+- pygobject
 - python-xml
 - sdbd
 - strace
 - wget
 - zypper
+- less
 Summary: Development Tools

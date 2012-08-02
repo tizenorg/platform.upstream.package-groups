@@ -4,15 +4,20 @@ Packages:
 - device-configs-MFLD-BlackBay
 - kernel-adaptation-bb
 - linux-firmware-mfld
-- mesa-dri-swrast-driver
 - ofono-server
 - system-plugin-ia-generic
+- mesa-dri-swrast-driver
 - uim
+- neard
 - watchdogd
-- xorg-x11-drv-evdev
+- xorg-input-evdev
 - xorg-drv-mtev
-- xorg-x11-drv-evdev-multitouch
+- xorg-input-evdev-multitouch
 - xorg-x11-drv-fbdev
-- xorg-x11-server-misc-emulfb
+- xorg-server-configs-bb
+- xorg-launch-helper
 - slp_devman_plugin_mfld
+- psb-video-mfld
+- gstreamer-vaapi
+- mfldv4l2camsrc
 Summary: Medfield Support
