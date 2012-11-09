@@ -31,7 +31,7 @@ for pp in base; do
 done
 
 merge-patterns -a %__arch --pattern-dir=input/ --output-dir=output/
-xsltproc /usr/share/package-groups/stylesheets/xsl/comps.xsl output/patterns.xml > output/group.xml
+xsltproc /usr/share/package-groups/stylesheets/comps.xsl output/patterns.xml > output/group.xml
 
 
 %install
