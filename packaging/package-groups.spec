@@ -20,7 +20,7 @@ Tizen Package Groups
 %build
 mkdir -p input
 for pp in base; do 
-	cp %{_datadir}/package-groups/$i/*.yaml input
+	cp %{_datadir}/package-groups/$pp/*.yaml input
 done
 
 merge-patterns -a ${ARCH} -p input -o output
