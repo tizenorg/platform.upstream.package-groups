@@ -1,22 +1,12 @@
 Summary:	Tizen Package Groups
 Name:		package-groups
-Version:	0.13
+Version:	100
 Release:	1
 License:	GPLv2
 Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-
-
-%package tools
-Summary:    Package Group Tools
-Group:		System/Base
-Requires:  libxslt
-Requires: python-yaml
-Requires: python-lxml
-
-%description tools
-Tools for managing package groups and patterns.
+BuildRequires:	patterns-base
 
 
 %description
@@ -26,16 +16,14 @@ Tizen Package Groups
 %setup -q
 
 %build
-make 
+#
 
 %install
-%make_install
-
+install -d %{buildroot}%{_datadir}/package-groups/patterns
+for pp in base; do 
+	cp %{_datadir}/package-groups/$i/*.yaml %{buildroot}%{_datadir}/package-groups/patterns
+done
 
 %files
-/usr/share/package-groups/patterns/*.yaml
+%{_datadir}/package-groups/patterns/*.yaml
 
-
-%files tools
-/usr/bin/merge-patterns
-/usr/share/package-groups/stylesheets/*.xsl
