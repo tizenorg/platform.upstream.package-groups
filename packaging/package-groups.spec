@@ -9,6 +9,7 @@ Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	patterns-base
 BuildRequires:	pattern-tools
 BuildRequires:	python
+BuildRequires:	xsltproc
 
 
 %description
