@@ -24,12 +24,12 @@ Tizen Package Groups
 %define __arch i586
 %endif
 
-mkdir -p input
+mkdir -p input output
 for pp in base; do 
 	cp %{_datadir}/package-groups/$pp/*.yaml input
 done
 
-merge-patterns -a %__arch -p input -o output
+merge-patterns -a %__arch --pattern-dir=input/ --output-dir=output/
 xsltproc /usr/share/package-groups/stylesheets/xsl/comps.xsl output/patterns.xml > output/group.xml
 
 
