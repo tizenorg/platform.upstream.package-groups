@@ -19,9 +19,9 @@ Tizen Package Groups
 
 %build
 %ifarch %{arm}
-%define __arch=arm
+%define __arch arm
 %else
-%define __arch=i586
+%define __arch i586
 %endif
 
 mkdir -p input
