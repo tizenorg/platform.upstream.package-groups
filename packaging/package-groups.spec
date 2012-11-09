@@ -37,7 +37,7 @@ xsltproc /usr/share/package-groups/stylesheets/comps.xsl output/patterns.xml > o
 %install
 install -d %{buildroot}/usr/share/package-groups
 install -m 644 output/patterns.xml %{buildroot}/usr/share/package-groups
-install -m 644 group.xml %{buildroot}/usr/share/package-groups
+install -m 644 output/group.xml %{buildroot}/usr/share/package-groups
 
 %files
 %{_datadir}/package-groups/*.xml
