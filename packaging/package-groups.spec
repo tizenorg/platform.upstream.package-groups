@@ -6,7 +6,7 @@ License:	GPLv2
 Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-BuildRequires:	patterns-base
+BuildRequires:	meta-base
 BuildRequires:	pattern-tools
 BuildRequires:	python
 BuildRequires:	xsltproc
