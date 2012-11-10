@@ -27,8 +27,8 @@ Tizen Package Groups
 %endif
 
 mkdir -p input output
-for pp in base; do 
-	cp %{_datadir}/package-groups/$pp/*.yaml input
+for pp in base pc; do 
+	test -d %{_datadir}/package-groups/$pp && cp %{_datadir}/package-groups/$pp/*.yaml input
 done
 
 merge-patterns -a %__arch --pattern-dir=input/ --output-dir=output/
