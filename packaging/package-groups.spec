@@ -7,6 +7,7 @@ Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
 BuildRequires:	meta-base
+BuildRequires:	meta-pc
 BuildRequires:	pattern-tools
 BuildRequires:	python
 BuildRequires:	xsltproc
