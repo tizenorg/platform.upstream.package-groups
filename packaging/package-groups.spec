@@ -1,13 +1,15 @@
+%bcond_with tizen_profile
+
 Summary:	Tizen Package Groups
 Name:		package-groups
-Version:	100
+Version:	101
 Release:	1
 License:	GPLv2
 Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
-BuildRequires:	meta-base
-BuildRequires:	meta-pc
+BuildRequires:	meta-common
+BuildRequires:	meta-%{with tizen_profile}
 BuildRequires:	pattern-tools
 BuildRequires:	python
 BuildRequires:	xsltproc
@@ -27,7 +29,7 @@ Tizen Package Groups
 %endif
 
 mkdir -p input output
-for pp in base pc; do 
+for pp in common %{with tizen_profile}; do 
 	test -d %{_datadir}/package-groups/$pp && cp %{_datadir}/package-groups/$pp/*.yaml input
 done
 
