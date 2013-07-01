@@ -12,6 +12,7 @@ License:	GPL-2.0
 Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
+Source1001: 	package-groups.manifest
 BuildRequires:	meta-common
 BuildRequires:	meta-%{_profile}
 BuildRequires:	pattern-tools
@@ -24,6 +25,7 @@ Tizen Package Groups
 
 %prep
 %setup -q
+cp %{SOURCE1001} .
 
 %build
 %ifarch %{arm}
@@ -47,5 +49,6 @@ install -m 644 output/patterns.xml %{buildroot}/usr/share/package-groups
 install -m 644 output/group.xml %{buildroot}/usr/share/package-groups
 
 %files
+%manifest %{name}.manifest
 %{_datadir}/package-groups/*.xml
 
