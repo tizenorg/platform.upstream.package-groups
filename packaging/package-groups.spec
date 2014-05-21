@@ -13,7 +13,7 @@ Group:		System/Base
 URL:		http://www.tizen.org
 Source:		%{name}-%{version}.tar.bz2
 Source1001: 	package-groups.manifest
-BuildRequires:	meta-common
+BuildRequires:	meta-generic
 BuildRequires:	meta-%{_profile}
 BuildRequires:	pattern-tools
 BuildRequires:	python
@@ -35,7 +35,7 @@ cp %{SOURCE1001} .
 %endif
 
 mkdir -p input output
-for pp in common %_profile; do 
+for pp in generic %_profile; do
 	test -d %{_datadir}/package-groups/$pp && cp %{_datadir}/package-groups/$pp/*.yaml input
 done
 
